@@ -1,0 +1,25 @@
+{
+  "regression": {
+    "mae_oof": 99.01720554628135,
+    "rmse_oof": 117.941930468371
+  },
+  "classification": {
+    "macro_f1_oof": 0.31701301219881867,
+    "balanced_accuracy_oof": 0.32323232323232326,
+    "accuracy_oof": 0.32407407407407407,
+    "thresholds": {
+      "low_max": 161.1644913185857,
+      "medium_max": 278.65530026894305
+    }
+  },
+  "features": 72,
+  "samples": 108,
+  "groups": [
+    2020,
+    2021,
+    2022,
+    2024
+  ],
+  "presets": "medium_quality_faster_train",
+  "time_limit": 30
+}

@@ -1,0 +1,62 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Fantasanremo Artisti Caratteristiche Schema",
+  "description": "Schema per le caratteristiche degli artisti 2026",
+  "type": "object",
+  "required": ["caratteristiche_artisti_2026"],
+  "properties": {
+    "caratteristiche_artisti_2026": {
+      "type": "array",
+      "description": "Lista delle caratteristiche degli artisti",
+      "items": {
+        "type": "object",
+        "required": ["nome"],
+        "properties": {
+          "nome": {
+            "type": "string",
+            "description": "Nome dell'artista",
+            "minLength": 1
+          },
+          "viralita_social": {
+            "type": "integer",
+            "description": "Livello di viralità social (1-100) calcolato da follower reali",
+            "minimum": 1,
+            "maximum": 100
+          },
+          "social_followers_total": {
+            "type": "integer",
+            "description": "Totale follower social (somma piattaforme note)",
+            "minimum": 0
+          },
+          "social_followers_by_platform": {
+            "type": "object",
+            "description": "Dettaglio follower per piattaforma"
+          },
+          "social_followers_last_updated": {
+            "type": "string",
+            "description": "Data ultimo aggiornamento followers (YYYY-MM-DD)"
+          },
+        "storia_bonus_ottenuti": {
+          "type": "integer",
+          "description": "Somma punti FantaSanremo storici (proxy bonus/malus)",
+          "minimum": 0
+        },
+          "ad_personam_bonus_count": {
+            "type": "integer",
+            "description": "Conteggio bonus ad personam da regolamento",
+            "minimum": 0
+          },
+          "ad_personam_bonus_points": {
+            "type": "integer",
+            "description": "Somma punti bonus ad personam da regolamento",
+            "minimum": 0
+          },
+          "note": {
+            "type": "string",
+            "description": "Note aggiuntive sulle caratteristiche"
+          }
+        }
+      }
+    }
+  }
+}

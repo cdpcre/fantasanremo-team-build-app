@@ -1,0 +1,179 @@
+{
+  "meta": {
+    "source": "https://fantasanremo.com/data/rulebook/1769099523048/rulebook-it.pdf",
+    "anno": 2026,
+    "estrazione": "2026-01-28"
+  },
+  "regole_generali": {
+    "baudi_disponibili": 100,
+    "numero_artisti": 7,
+    "titolari": 5,
+    "riserve": 2,
+    "capitano": true,
+    "scadenza_iscrizione": "2026-02-23T23:59:00",
+    "finestra_modifiche": {
+      "inizio": "2026-02-27T08:00:00",
+      "fine": "2026-02-28T20:00:00"
+    },
+    "punteggio_titolari": ["serata", "dopofestival", "extra"],
+    "punteggio_riserve": ["extra"],
+    "moltiplicatore_capitano": 2
+  },
+  "punti_classifica_finale": [
+    {"posizione": 1, "punti": 100},
+    {"posizione": 2, "punti": 75},
+    {"posizione": 3, "punti": 60},
+    {"posizione": 4, "punti": 50},
+    {"posizione": 5, "punti": 40},
+    {"posizione": 6, "punti": 30},
+    {"posizione": 7, "punti": 27},
+    {"posizione": 8, "punti": 24},
+    {"posizione": 9, "punti": 21},
+    {"posizione": 10, "punti": 18},
+    {"posizione": 11, "punti": 15},
+    {"posizione": 12, "punti": 12},
+    {"posizione": 13, "punti": 10},
+    {"posizione": 14, "punti": 8},
+    {"posizione": 15, "punti": 6},
+    {"posizione": 16, "punti": 4},
+    {"posizione": 17, "punti": 2},
+    {"posizione": 18, "punti": 0},
+    {"posizione": 19, "punti": -2},
+    {"posizione": 20, "punti": -4},
+    {"posizione": 21, "punti": -6},
+    {"posizione": 22, "punti": -8},
+    {"posizione": 23, "punti": -10},
+    {"posizione": 24, "punti": -12},
+    {"posizione": 25, "punti": -15},
+    {"posizione": 26, "punti": -18},
+    {"posizione": 27, "punti": -21},
+    {"posizione": 28, "punti": -24},
+    {"posizione": 29, "punti": -27},
+    {"posizione": 30, "punti": 30}
+  ],
+  "premi": [
+    {"nome": "Vince la serata delle Cover", "punti": 30},
+    {"nome": "Premio della critica Mia Martini", "punti": 30},
+    {"nome": "Premio della Sala Stampa Lucio Dalla", "punti": 30},
+    {"nome": "Premio Sergio Bardotti per il miglior testo", "punti": 30},
+    {"nome": "Premio Giancarlo Bigazzi per la miglior composizione musicale", "punti": 30},
+    {"nome": "Altri premi consegnati sul palco non specificati", "punti": 20}
+  ],
+  "bonus": {
+    "ad_personam": [
+      {"descrizione": "Arisa consiglia antidolorifici a Carlo Conti", "punti": 10},
+      {"descrizione": "Eddie Brock indossa una maschera da Venom", "punti": 10},
+      {"descrizione": "Foto di Chiello con la maglia di Chiellini (o viceversa)", "punti": 3},
+      {"descrizione": "Francesco Renga si prende cura di Angelo", "punti": 10, "nota": "Raddoppia se è Angelo dei Ricchi e Poveri"},
+      {"descrizione": "Fulminacci canta sotto il temporale", "punti": 10},
+      {"descrizione": "LDA & Aka 7even si presentano sul palco con Stefano Scala", "punti": 10},
+      {"descrizione": "Levante viene presentata da Leonardo Pieraccioni o Massimo Ceccherini", "punti": 10},
+      {"descrizione": "Malika Ayane restituisce uno spartito all'orchestra", "punti": 10},
+      {"descrizione": "Maria Antonietta 'perde la testa'", "punti": 10},
+      {"descrizione": "Patty Pravo fa girar le Bambole di Pezza", "punti": 10},
+      {"descrizione": "Samurai Jay indossa un kimono", "punti": 10},
+      {"descrizione": "Tredici Pietro si classifica tredicesimo", "punti": 13}
+    ],
+    "serali": [
+      {"descrizione": "Indossa occhiali da sole", "punti": 5},
+      {"descrizione": "Indossa un cappello", "punti": 5},
+      {"descrizione": "Indossa un abito con strascico", "punti": 10},
+      {"descrizione": "Cambio d'outfit, esclusi accessori", "punti": 10, "nota": "Raddoppia se quick change"},
+      {"descrizione": "Cantante suona uno strumento", "punti": 10},
+      {"descrizione": "Twerking", "punti": 5},
+      {"descrizione": "Ombelico in bella vista", "punti": 5},
+      {"descrizione": "Scapezzolata", "punti": 10, "max": 2},
+      {"descrizione": "Ballerini", "punti": 10},
+      {"descrizione": "Performer", "punti": 15},
+      {"descrizione": "Standing ovation del pubblico dell'Ariston", "punti": 20, "nota": "Dimezzato se parziale"},
+      {"descrizione": "Standing ovation dell'orchestra", "punti": 30},
+      {"descrizione": "Invasione di palco non programmata", "punti": 30},
+      {"descrizione": "Si esibisce 3 volte consecutivamente per problemi tecnici", "punti": 30},
+      {"descrizione": "Presentato da un co-conduttore", "punti": 5},
+      {"descrizione": "Ultimo artista a esibirsi", "punti": 10},
+      {"descrizione": "Partecipa in diretta al DopoFestival", "punti": 5}
+    ],
+    "peppe_vessicchio": [
+      {"descrizione": "Il direttore d'orchestra indossa un papillon", "punti": 10},
+      {"descrizione": "Due direttori dirigono contemporaneamente l'orchestra", "punti": 20},
+      {"descrizione": "Il direttore d'orchestra dà il tempo: 'Pronti, partenza, via!'", "punti": 20},
+      {"descrizione": "Il conduttore dice 'Dirige l'orchestra il maestro Peppe Vessicchio'", "punti": 10, "nota": "Assegnato a tutti gli artisti"}
+    ],
+    "premium": {
+      "arredissima": [
+        {"descrizione": "Il rosso della passione: indossa rosso", "punti": 10},
+        {"descrizione": "La casa è condivisione: abbraccia l'ospite (cover night)", "punti": 10},
+        {"descrizione": "Comfort zone: si siede sulle scale", "punti": 10}
+      ],
+      "bancomat": [
+        {"descrizione": "Contactless: non tocca il microfono per 30 secondi", "punti": 10},
+        {"descrizione": "Club backstage: selfie/foto con conduttore nel backstage", "punti": 10},
+        {"descrizione": "Insolito: selfie/foto con un gabbiano", "punti": 20}
+      ],
+      "chanteclair": [
+        {"descrizione": "Si esibisce al cantar del gallo: primo artista serata", "punti": 10},
+        {"descrizione": "Funziona su tutte le superfici: scende in platea", "punti": 15},
+        {"descrizione": "Alza la cresta: top five classifica serata", "punti": 20}
+      ],
+      "eurospin": [
+        {"descrizione": "Orario di chiusura: si esibisce dopo mezzanotte", "punti": 5, "nota": "Raddoppia dopo l'una"},
+        {"descrizione": "Reparto ortofrutta: indossa i guanti", "punti": 10},
+        {"descrizione": "Presentazione stellare: presentato da un ospite", "punti": 15}
+      ],
+      "aperol": [
+        {"descrizione": "Brindisi con il Team FantaSanremo", "punti": 20},
+        {"descrizione": "Indossa o porta un fiore arancione", "punti": 10}
+      ],
+      "rai_radio_2": [
+        {"descrizione": "Foto con tazza FantaSanremo nello studio Rai Radio 2", "punti": 10}
+      ]
+    },
+    "extra": [
+      {"descrizione": "Gioca a FantaSanremo Adventure", "punti": 10},
+      {"descrizione": "Batti 5 alla statua di Mike Bongiorno", "punti": 10},
+      {"descrizione": "Canta con i fan per le vie di Sanremo", "punti": 10},
+      {"descrizione": "Si esibisce davanti ai giornalisti in conferenza stampa", "punti": 10}
+    ],
+    "giornalieri_segreti": {
+      "martedi": {"rivelazione": "2026-02-24T20:00:00"},
+      "mercoledi": {"rivelazione": "2026-02-25T20:00:00"},
+      "giovedi": {"rivelazione": "2026-02-26T20:00:00"},
+      "venerdi": {
+        "raio_pubblica_utilita": {"rivelazione": "2026-02-27T12:00:00"},
+        "serali": {"rivelazione": "2026-02-27T20:00:00"}
+      },
+      "sabato": {
+        "sivola": {"rivelazione": "2026-02-28T12:00:00"},
+        "serali": {"rivelazione": "2026-02-28T20:00:00"}
+      }
+    }
+  },
+  "malus": [
+    {"descrizione": "Nomina il FantaSanremo sul palco", "punti": -10},
+    {"descrizione": "Il presentatore sbaglia il nome dell'artista", "punti": -5},
+    {"descrizione": "Il presentatore sbaglia il titolo della canzone", "punti": -10},
+    {"descrizione": "Foto di un'altra persona nella grafica di presentazione", "punti": -15},
+    {"descrizione": "Inciampo sulla scalinata (pre-esibizione)", "punti": -10},
+    {"descrizione": "Caduta sulla scalinata (pre-esibizione)", "punti": -30, "nota": "Non cumulabile con inciampo"},
+    {"descrizione": "Dimentica parole del testo (scena muta o farfugliando)", "punti": -10},
+    {"descrizione": "Cade accidentalmente il microfono o l'asta", "punti": -15},
+    {"descrizione": "Problemi tecnici che causano l'interruzione del brano", "punti": -20},
+    {"descrizione": "Inciampo durante l'esibizione", "punti": -10},
+    {"descrizione": "Caduta durante l'esibizione", "punti": -20, "nota": "Non cumulabile con inciampo"},
+    {"descrizione": "Fischi di disapprovazione del pubblico chiaramente udibili", "punti": -30},
+    {"descrizione": "Discorso e/o battute di carattere discriminatorio", "punti": -30},
+    {"descrizione": "Orgogliosa e canto", "punti": -66.6},
+    {"descrizione": "Canzone e/o artista squalificati", "punti": -100}
+  ],
+  "note": [
+    "Qualora alcune posizioni non vengano specificate, i punti non verranno assegnati",
+    "Bonus assegnabile una sola volta per artista",
+    "Bonus Extra: assegnabile dall'inizio alla fine del Festival",
+    "Nei gruppi il bonus strumento non è valido per coristi",
+    "Bonuscapezzolata: max 2 capezzoli/copricapezzoli",
+    "Bonus ultimo artista: assegnabile ogni serata",
+    "Bonus Vessicchio: assegnato all'artista sul palco",
+    "Fiore arancione: esclusi bouquet",
+    "Malus caduta: non cumulabile con inciampo"
+  ]
+}

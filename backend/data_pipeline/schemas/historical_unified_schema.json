@@ -1,0 +1,181 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Fantasanremo Unified Historical Data Schema",
+  "description": "Schema unificato per i dati storici di FantaSanremo (2020-2026)",
+  "type": "object",
+  "required": ["festival_edizioni", "artisti_storici", "artisti_2026", "metadata"],
+  "properties": {
+    "festival_edizioni": {
+      "type": "object",
+      "description": "Edizioni del festival con vincitori e punteggi",
+      "patternProperties": {
+        "^[0-9]{4}$": {
+          "type": "object",
+          "required": ["edizione", "anno", "vincitore", "punteggio", "squadre"],
+          "properties": {
+            "edizione": {
+              "type": "integer",
+              "minimum": 0,
+              "description": "Numero edizione"
+            },
+            "anno": {
+              "type": "integer",
+              "minimum": 2020,
+              "maximum": 2030,
+              "description": "Anno del festival"
+            },
+            "vincitore": {
+              "type": "string",
+              "minLength": 1,
+              "description": "Nome dell'artista vincitore"
+            },
+            "punteggio": {
+              "type": "integer",
+              "minimum": 0,
+              "description": "Punteggio del vincitore"
+            },
+            "squadre": {
+              "type": "integer",
+              "minimum": 0,
+              "description": "Numero di squadre partecipanti"
+            }
+          }
+        }
+      }
+    },
+    "artisti_storici": {
+      "type": "object",
+      "description": "Dati storici completi di tutti gli artisti",
+      "patternProperties": {
+        "^.+$": {
+          "type": "object",
+          "required": ["partecipazioni_totali", "edizioni"],
+          "properties": {
+            "partecipazioni_totali": {
+              "type": "integer",
+              "minimum": 0,
+              "description": "Numero totale di partecipazioni"
+            },
+            "edizioni": {
+              "type": "array",
+              "description": "Elenco delle partecipazioni con dettagli",
+              "items": {
+                "type": "object",
+                "required": ["anno", "posizione"],
+                "properties": {
+                  "anno": {
+                    "type": "integer",
+                    "minimum": 2020,
+                    "maximum": 2030
+                  },
+                  "posizione": {
+                    "type": "integer",
+                    "minimum": 1,
+                    "maximum": 30,
+                    "description": "Posizione in classifica"
+                  },
+                  "punteggio_finale": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "description": "Punteggio finale ottenuto"
+                  },
+                  "quotazione_baudi": {
+                    "oneOf": [
+                      {"type": "integer", "minimum": 0, "maximum": 100},
+                      {"type": "null"}
+                    ],
+                    "description": "Quotazione storica in baudi (range legacy esteso)"
+                  },
+                  "nota": {
+                    "type": "string",
+                    "description": "Note aggiuntive"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "artisti_2026": {
+      "type": "array",
+      "description": "Artisti partecipanti all'edizione 2026",
+      "items": {
+        "type": "object",
+        "required": ["nome", "debuttante", "partecipazioni", "storico_posizioni"],
+        "properties": {
+          "nome": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Nome dell'artista"
+          },
+          "quotazione": {
+            "oneOf": [
+              {"type": "integer", "minimum": 13, "maximum": 17},
+              {"type": "null"}
+            ],
+            "description": "Quotazione 2026 (opzionale, può essere caricata da artisti_2026_enriched.json)"
+          },
+          "debuttante": {
+            "type": "boolean",
+            "description": "Se l'artista è debuttante"
+          },
+          "partecipazioni": {
+            "type": "integer",
+            "minimum": 0,
+            "description": "Numero di partecipazioni precedenti"
+          },
+          "storico_posizioni": {
+            "type": "object",
+            "description": "Posizioni storiche per anno",
+            "patternProperties": {
+              "^(2021|2022|2023|2024|2025)$": {
+                "oneOf": [
+                  {"type": "integer", "minimum": 1, "maximum": 30},
+                  {"type": "null"}
+                ]
+              }
+            }
+          },
+          "note": {
+            "type": "string",
+            "description": "Note aggiuntive"
+          }
+        }
+      }
+    },
+    "metadata": {
+      "type": "object",
+      "required": ["unified_version", "data_last_updated"],
+      "properties": {
+        "unified_version": {
+          "type": "string",
+          "description": "Versione dello schema unificato"
+        },
+        "data_last_updated": {
+          "type": "string",
+          "format": "date",
+          "description": "Data ultimo aggiornamento (YYYY-MM-DD)"
+        },
+        "source_files": {
+          "type": "array",
+          "items": {"type": "string"},
+          "description": "File sorgenti utilizzati per la migrazione"
+        },
+        "festival_years": {
+          "type": "array",
+          "items": {"type": "string"},
+          "description": "Anni del festival inclusi"
+        },
+        "total_artists_2026": {
+          "type": "integer",
+          "description": "Numero totale artisti 2026"
+        },
+        "total_historical_artists": {
+          "type": "integer",
+          "description": "Numero totale artisti storici"
+        }
+      }
+    }
+  }
+}

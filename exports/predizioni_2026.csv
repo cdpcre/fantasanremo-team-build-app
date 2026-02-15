@@ -1,0 +1,31 @@
+id,artista_id,punteggio_predetto,confidence,livello_performer,artista_nome
+1,1,268.83,0.71,MEDIUM,Tommaso Paradiso
+2,2,318.74,0.85,MEDIUM,Fedez & Marco Masini
+3,3,308.37,0.23,HIGH,Arisa
+4,4,427.82,0.32,HIGH,Dargen D'Amico
+5,5,292.95,0.42,HIGH,Ermal Meta
+6,6,315.07,0.43,MEDIUM,LDA & Aka 7even
+7,7,305.87,0.15,MEDIUM,Levante
+8,8,269.01,0.77,MEDIUM,Luche
+9,9,303.08,0.07,MEDIUM,Malika Ayane
+10,10,317.81,0.85,HIGH,Michele Bravi
+11,11,279.74,0.73,MEDIUM,Serena Brancale
+12,12,189.44,0.46,MEDIUM,Bambole di Pezza
+13,13,187.2,0.3,MEDIUM,Eddie Brock
+14,14,288.65,0.69,MEDIUM,Elettra Lamborghini
+15,15,300.79,0.0,MEDIUM,Fulminacci
+16,16,273.88,0.92,LOW,Leo Gassmann
+17,17,282.92,0.86,LOW,Mara Sattei
+18,18,259.18,0.57,MEDIUM,Nayt
+19,19,187.2,0.3,MEDIUM,Samurai Jay
+20,20,246.38,0.99,MEDIUM,Chiello
+21,21,286.37,0.83,MEDIUM,Ditonellapiaga
+22,22,264.8,0.84,MEDIUM,Enrico Nigiotti
+23,23,321.0,0.61,MEDIUM,Francesco Renga
+24,24,296.11,0.96,MEDIUM,J-Ax
+25,25,268.07,0.74,MEDIUM,Maria Antonietta & Colombre
+26,26,193.6,0.32,MEDIUM,Patty Pravo
+27,27,268.07,0.74,MEDIUM,Raf
+28,28,271.78,0.63,MEDIUM,Sal Da Vinci
+29,29,263.18,0.66,MEDIUM,Sayf
+30,30,187.2,0.3,MEDIUM,Tredici Pietro
