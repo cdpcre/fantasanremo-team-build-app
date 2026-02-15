@@ -51,7 +51,7 @@ Endpoint locali:
 - Backend: `http://localhost:8000`
 - Docs API: `http://localhost:8000/docs`
 
-## Deploy Vercel (Consigliato per Portfolio)
+## Deploy Vercel
 
 Questo repository supporta una modalita standalone: genera un frontend statico che legge uno snapshot locale (`VITE_API_MODE=local`), quindi non richiede deploy del backend su Vercel.
 
