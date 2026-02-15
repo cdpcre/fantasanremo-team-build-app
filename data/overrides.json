@@ -1,0 +1,138 @@
+{
+  "_comment": "Override manuali per artisti 2026. Vengono applicati da update_biografico_from_web.py",
+  "overrides": {
+    "Tommaso Paradiso": {
+      "genere_musicale": "Pop",
+      "followers_by_platform": {
+        "youtube_channel": 193000,
+        "instagram": 853000,
+        "facebook": 150000
+      },
+      "followers_total": 1053000,
+      "followers_last_updated": "2026-02-02",
+      "source": "manuale"
+    },
+    "Luche": {
+      "genere_musicale": "Hip-hop"
+    },
+    "Elettra Lamborghini": {
+      "genere_musicale": "Pop"
+    },
+    "Leo Gassmann": {
+      "genere_musicale": "Pop"
+    },
+    "Mara Sattei": {
+      "genere_musicale": "Pop"
+    },
+    "Samurai Jay": {
+      "genere_musicale": "Hip-hop"
+    },
+    "Chiello": {
+      "genere_musicale": "Hip-hop"
+    },
+    "Enrico Nigiotti": {
+      "genere_musicale": "Pop"
+    },
+    "Maria Antonietta": {
+      "genere_musicale": "Pop",
+      "followers_by_platform": {
+        "instagram": 31600
+      },
+      "followers_total": 31600,
+      "followers_last_updated": "2025-11-30",
+      "source": "imusicfun"
+    },
+    "Colombre": {
+      "genere_musicale": "Indie Pop",
+      "followers_by_platform": {
+        "instagram": 17700
+      },
+      "followers_total": 17700,
+      "followers_last_updated": "2025-11-30",
+      "source": "imusicfun"
+    },
+    "Tredici Pietro": {
+      "genere_musicale": "Hip-hop"
+    },
+    "Bambole di Pezza": {
+      "anno_nascita": 1986,
+      "note": "Gruppo musicale italiano; anno_nascita stimato da età media partecipanti 2026 (40 anni)",
+      "genere_musicale": "Pop",
+      "followers_by_platform": {
+        "instagram": 149000,
+        "youtube_channel": 13200,
+        "x_twitter_numeric": null,
+        "facebook": 324,
+        "tiktok": 45900
+      },
+      "followers_total": 208424,
+      "followers_last_updated": "2026-02-07",
+      "source": "web_research"
+    },
+    "Dargen D'Amico": {
+      "genere_musicale": "Pop",
+      "followers_by_platform": {
+        "instagram": 320000,
+        "youtube_channel": 154000,
+        "x_twitter_numeric": 68376,
+        "facebook": 106969,
+        "tiktok": 363
+      },
+      "followers_total": 649708,
+      "followers_last_updated": "2026-02-07",
+      "source": "web_research"
+    },
+    "Eddie Brock": {
+      "genere_musicale": "Pop",
+      "followers_by_platform": {
+        "instagram": 44000,
+        "youtube_channel": 35000,
+        "x_twitter_numeric": null,
+        "facebook": null,
+        "tiktok": 11500
+      },
+      "followers_total": 90500,
+      "followers_last_updated": "2026-02-07",
+      "source": "web_research"
+    },
+    "Fulminacci": {
+      "genere_musicale": "Indie Pop",
+      "followers_by_platform": {
+        "instagram": 166000,
+        "youtube_channel": 65200,
+        "x_twitter_numeric": 13970,
+        "facebook": 27540,
+        "tiktok": 12500
+      },
+      "followers_total": 285210,
+      "followers_last_updated": "2026-02-07",
+      "source": "web_research"
+    },
+    "Serena Brancale": {
+      "genere_musicale": "Jazz/Funk/Rhythm and blues/Neo soul/Pop",
+      "followers_by_platform": {
+        "instagram": 751000,
+        "youtube_channel": 34400,
+        "x_twitter_numeric": 1937,
+        "facebook": 219811,
+        "tiktok": 369900
+      },
+      "followers_total": 1376148,
+      "followers_last_updated": "2026-02-07",
+      "source": "web_research"
+    },
+    "Raf": {
+      "genere_musicale": "Pop rock",
+      "followers_by_platform": {
+        "instagram": 139000,
+        "youtube_channel": 110000,
+        "x_twitter_numeric": null,
+        "facebook": 322537,
+        "tiktok": null
+      },
+      "followers_total": 571537,
+      "followers_last_updated": "2026-02-07",
+      "source": "web_research"
+    }
+  }
+}

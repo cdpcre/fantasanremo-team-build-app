@@ -1,0 +1,577 @@
+{
+  "ensemble_weights": {
+    "rf": 0.20416677642848935,
+    "gb": 0.20400988133172268,
+    "ridge": 0.18945511911240423,
+    "xgb": 0.2034618624787991,
+    "lgbm": 0.1989063606485846
+  },
+  "ensemble_strategy": "weighted",
+  "ensemble_candidate_metrics": {
+    "weighted": {
+      "mae": 72.00902462018213,
+      "r2": 0.27809640407427016,
+      "rmse": 84.89130459731192,
+      "mape": 35.5013908724774,
+      "directional_accuracy": 0.6944444444444444,
+      "category_accuracy": 0.37037037037037035,
+      "category_macro_f1": 0.34704401143579183,
+      "category_balanced_accuracy": 0.38046095631234955
+    },
+    "mean": {
+      "mae": 71.98858716760176,
+      "r2": 0.27769786545194763,
+      "rmse": 84.91473417684325,
+      "mape": 35.511639762285284,
+      "directional_accuracy": 0.6944444444444444,
+      "category_accuracy": 0.37037037037037035,
+      "category_macro_f1": 0.34704401143579183,
+      "category_balanced_accuracy": 0.38046095631234955
+    },
+    "median": {
+      "mae": 72.4135780448739,
+      "r2": 0.2719738320569718,
+      "rmse": 85.25053244409644,
+      "mape": 35.15279265687204,
+      "directional_accuracy": 0.6944444444444444,
+      "category_accuracy": 0.37037037037037035,
+      "category_macro_f1": 0.3499662106219483,
+      "category_balanced_accuracy": 0.3799162940029814
+    }
+  },
+  "year_stats": {
+    "2020": {
+      "mean": 136.04326947697672,
+      "std": 33.40792472727175
+    },
+    "2021": {
+      "mean": 190.66048259280717,
+      "std": 54.42051617152826
+    },
+    "2022": {
+      "mean": 313.06637226824677,
+      "std": 84.44357261849406
+    },
+    "2024": {
+      "mean": 272.7074907706937,
+      "std": 100.76373782910927
+    }
+  },
+  "selected_features": [
+    "voto_stampa",
+    "participations",
+    "avg_position",
+    "position_variance",
+    "top10_finishes",
+    "years_since_last",
+    "is_debuttante_x",
+    "artist_age",
+    "career_length",
+    "is_debuttante_y",
+    "gen_x",
+    "viral_potential",
+    "has_bonus_history",
+    "bonus_count",
+    "genre_mainstream_pop",
+    "genre_rap_urban",
+    "POP_MAINSTREAM",
+    "DEBUTTANTE_POTENTIAL",
+    "age_genre_mainstream_pop",
+    "experience_pop_mainstream",
+    "age_viral_interaction"
+  ],
+  "feature_fill_values": {
+    "voto_stampa": 6.85,
+    "participations": 0.0,
+    "avg_position": 0.0,
+    "position_variance": 0.0,
+    "top10_finishes": 0.0,
+    "years_since_last": 0.0,
+    "is_debuttante_x": 1.0,
+    "artist_age": 0.68,
+    "career_length": 0.0,
+    "is_debuttante_y": 0.0,
+    "gen_x": 0.0,
+    "viral_potential": 0.84,
+    "has_bonus_history": 0.0,
+    "bonus_count": 275.0,
+    "genre_mainstream_pop": 0.0,
+    "genre_rap_urban": 0.0,
+    "POP_MAINSTREAM": 1.0,
+    "DEBUTTANTE_POTENTIAL": 0.0,
+    "age_genre_mainstream_pop": 0.66,
+    "experience_pop_mainstream": 0.0,
+    "age_viral_interaction": 0.5152000000000001
+  },
+  "winsorization_bounds": {
+    "voto_stampa": {
+      "lower": 4.8,
+      "upper": 8.486
+    },
+    "participations": {
+      "lower": 0.0,
+      "upper": 1.0
+    },
+    "avg_position": {
+      "lower": 0.0,
+      "upper": 27.86
+    },
+    "position_variance": {
+      "lower": 0.0,
+      "upper": 0.0
+    },
+    "top10_finishes": {
+      "lower": 0.0,
+      "upper": 1.0
+    },
+    "years_since_last": {
+      "lower": 0.0,
+      "upper": 2.8599999999999994
+    },
+    "is_debuttante_x": {
+      "lower": 0.0,
+      "upper": 1.0
+    },
+    "artist_age": {
+      "lower": 0.5028,
+      "upper": 0.8744
+    },
+    "career_length": {
+      "lower": 0.0,
+      "upper": 0.0
+    },
+    "is_debuttante_y": {
+      "lower": 0.0,
+      "upper": 0.0
+    },
+    "gen_x": {
+      "lower": 0.0,
+      "upper": 1.0
+    },
+    "viral_potential": {
+      "lower": 0.7856000000000001,
+      "upper": 0.913
+    },
+    "has_bonus_history": {
+      "lower": 0.0,
+      "upper": 1.0
+    },
+    "bonus_count": {
+      "lower": 160.6,
+      "upper": 617.04
+    },
+    "genre_mainstream_pop": {
+      "lower": 0.0,
+      "upper": 1.0
+    },
+    "genre_rap_urban": {
+      "lower": 0.0,
+      "upper": 0.0
+    },
+    "POP_MAINSTREAM": {
+      "lower": 0.0,
+      "upper": 1.0
+    },
+    "DEBUTTANTE_POTENTIAL": {
+      "lower": 0.0,
+      "upper": 0.0
+    },
+    "age_genre_mainstream_pop": {
+      "lower": 0.06160000000000006,
+      "upper": 0.8744
+    },
+    "experience_pop_mainstream": {
+      "lower": 0.0,
+      "upper": 0.0
+    },
+    "age_viral_interaction": {
+      "lower": 0.40692799999999996,
+      "upper": 0.760728
+    }
+  },
+  "category_classifier_features": [
+    "participations",
+    "position_variance",
+    "top10_finishes",
+    "years_since_last",
+    "is_recent",
+    "career_length",
+    "is_veteran",
+    "sanremo_veteran_bonus",
+    "gen_z",
+    "millennial",
+    "boomer",
+    "viral_potential",
+    "has_bonus_history",
+    "bonus_count",
+    "ad_personam_bonus_count_x",
+    "genre_mainstream_pop",
+    "genre_rap_urban",
+    "genre_rock_indie",
+    "genre_avg_performance",
+    "age_genre_mainstream_pop",
+    "experience_indie_darling",
+    "experience_rap_trap_star",
+    "experience_legendary_status",
+    "viral_genre_mainstream_pop",
+    "age_viral_interaction",
+    "career_genre_rap_urban",
+    "career_genre_rock_indie"
+  ],
+  "category_classifier_feature_fill_values": {
+    "participations": 0.0,
+    "position_variance": 0.0,
+    "top10_finishes": 0.0,
+    "years_since_last": 0.0,
+    "is_recent": 0.0,
+    "career_length": 0.0,
+    "is_veteran": 0.0,
+    "sanremo_veteran_bonus": 0.0,
+    "gen_z": 0.0,
+    "millennial": 1.0,
+    "boomer": 0.0,
+    "viral_potential": 0.84,
+    "has_bonus_history": 0.0,
+    "bonus_count": 275.0,
+    "ad_personam_bonus_count_x": 0.0,
+    "genre_mainstream_pop": 0.0,
+    "genre_rap_urban": 0.0,
+    "genre_rock_indie": 0.0,
+    "genre_avg_performance": 0.0,
+    "age_genre_mainstream_pop": 0.66,
+    "experience_indie_darling": 0.0,
+    "experience_rap_trap_star": 0.0,
+    "experience_legendary_status": 0.0,
+    "viral_genre_mainstream_pop": 0.83,
+    "age_viral_interaction": 0.5152000000000001,
+    "career_genre_rap_urban": 0.0,
+    "career_genre_rock_indie": 0.0
+  },
+  "category_classifier_winsorization_bounds": {
+    "participations": {
+      "lower": 0.0,
+      "upper": 1.0
+    },
+    "position_variance": {
+      "lower": 0.0,
+      "upper": 0.0
+    },
+    "top10_finishes": {
+      "lower": 0.0,
+      "upper": 1.0
+    },
+    "years_since_last": {
+      "lower": 0.0,
+      "upper": 2.8599999999999994
+    },
+    "is_recent": {
+      "lower": 0.0,
+      "upper": 1.0
+    },
+    "career_length": {
+      "lower": 0.0,
+      "upper": 0.0
+    },
+    "is_veteran": {
+      "lower": 0.0,
+      "upper": 0.0
+    },
+    "sanremo_veteran_bonus": {
+      "lower": 0.0,
+      "upper": 0.0
+    },
+    "gen_z": {
+      "lower": 0.0,
+      "upper": 0.8599999999999994
+    },
+    "millennial": {
+      "lower": 0.0,
+      "upper": 1.0
+    },
+    "boomer": {
+      "lower": 0.0,
+      "upper": 0.0
+    },
+    "viral_potential": {
+      "lower": 0.7856000000000001,
+      "upper": 0.913
+    },
+    "has_bonus_history": {
+      "lower": 0.0,
+      "upper": 1.0
+    },
+    "bonus_count": {
+      "lower": 160.6,
+      "upper": 617.04
+    },
+    "ad_personam_bonus_count_x": {
+      "lower": 0.0,
+      "upper": 1.0
+    },
+    "genre_mainstream_pop": {
+      "lower": 0.0,
+      "upper": 1.0
+    },
+    "genre_rap_urban": {
+      "lower": 0.0,
+      "upper": 0.0
+    },
+    "genre_rock_indie": {
+      "lower": 0.0,
+      "upper": 0.0
+    },
+    "genre_avg_performance": {
+      "lower": 0.0,
+      "upper": 0.0
+    },
+    "age_genre_mainstream_pop": {
+      "lower": 0.06160000000000006,
+      "upper": 0.8744
+    },
+    "experience_indie_darling": {
+      "lower": 0.0,
+      "upper": 0.0
+    },
+    "experience_rap_trap_star": {
+      "lower": 0.0,
+      "upper": 0.0
+    },
+    "experience_legendary_status": {
+      "lower": 0.0,
+      "upper": 0.0
+    },
+    "viral_genre_mainstream_pop": {
+      "lower": 0.1092000000000001,
+      "upper": 0.87
+    },
+    "age_viral_interaction": {
+      "lower": 0.40692799999999996,
+      "upper": 0.760728
+    },
+    "career_genre_rap_urban": {
+      "lower": 0.0,
+      "upper": 0.0
+    },
+    "career_genre_rock_indie": {
+      "lower": 0.0,
+      "upper": 0.0
+    }
+  },
+  "category_feature_selection_seed": 42,
+  "score_thresholds": {
+    "low_max": 180.0,
+    "medium_max": 270.0
+  },
+  "category_threshold_strategy": "fixed_default",
+  "category_threshold_strategies": {
+    "quantile_33_66": {
+      "thresholds": {
+        "low_max": 170.93126410768534,
+        "medium_max": 267.12323675249337
+      },
+      "distribution": {
+        "LOW": 36,
+        "MEDIUM": 35,
+        "HIGH": 37
+      },
+      "best_seed": 42,
+      "best_model": "rf_classifier",
+      "best_metrics": {
+        "category_accuracy": 0.5,
+        "category_macro_f1": 0.4891534391534392,
+        "category_balanced_accuracy": 0.5014943514943515
+      },
+      "seed_runs": {
+        "6": {
+          "feature_selection_seed": 6,
+          "best_model": "catboost_classifier",
+          "best_metrics": {
+            "category_accuracy": 0.5092592592592593,
+            "category_macro_f1": 0.488081465211292,
+            "category_balanced_accuracy": 0.512033462033462
+          },
+          "feature_count": 27
+        },
+        "42": {
+          "feature_selection_seed": 42,
+          "best_model": "rf_classifier",
+          "best_metrics": {
+            "category_accuracy": 0.5,
+            "category_macro_f1": 0.4891534391534392,
+            "category_balanced_accuracy": 0.5014943514943515
+          },
+          "feature_count": 27
+        }
+      }
+    },
+    "quantile_30_70": {
+      "thresholds": {
+        "low_max": 161.1644913185857,
+        "medium_max": 278.65530026894305
+      },
+      "distribution": {
+        "LOW": 33,
+        "MEDIUM": 42,
+        "HIGH": 33
+      },
+      "best_seed": 42,
+      "best_model": "rf_classifier",
+      "best_metrics": {
+        "category_accuracy": 0.5833333333333334,
+        "category_macro_f1": 0.5740878386813635,
+        "category_balanced_accuracy": 0.5844155844155844
+      },
+      "seed_runs": {
+        "6": {
+          "feature_selection_seed": 6,
+          "best_model": "rf_classifier",
+          "best_metrics": {
+            "category_accuracy": 0.5277777777777778,
+            "category_macro_f1": 0.5057359999539046,
+            "category_balanced_accuracy": 0.5281385281385281
+          },
+          "feature_count": 27
+        },
+        "42": {
+          "feature_selection_seed": 42,
+          "best_model": "rf_classifier",
+          "best_metrics": {
+            "category_accuracy": 0.5833333333333334,
+            "category_macro_f1": 0.5740878386813635,
+            "category_balanced_accuracy": 0.5844155844155844
+          },
+          "feature_count": 27
+        }
+      }
+    },
+    "fixed_default": {
+      "thresholds": {
+        "low_max": 180.0,
+        "medium_max": 270.0
+      },
+      "distribution": {
+        "LOW": 38,
+        "MEDIUM": 34,
+        "HIGH": 36
+      },
+      "best_seed": 42,
+      "best_model": "gb_classifier",
+      "best_metrics": {
+        "category_accuracy": 0.5925925925925926,
+        "category_macro_f1": 0.5875168146354587,
+        "category_balanced_accuracy": 0.5930799220272904
+      },
+      "seed_runs": {
+        "6": {
+          "feature_selection_seed": 6,
+          "best_model": "rf_classifier",
+          "best_metrics": {
+            "category_accuracy": 0.5185185185185185,
+            "category_macro_f1": 0.4601403418141117,
+            "category_balanced_accuracy": 0.5065646141497534
+          },
+          "feature_count": 27
+        },
+        "42": {
+          "feature_selection_seed": 42,
+          "best_model": "gb_classifier",
+          "best_metrics": {
+            "category_accuracy": 0.5925925925925926,
+            "category_macro_f1": 0.5875168146354587,
+            "category_balanced_accuracy": 0.5930799220272904
+          },
+          "feature_count": 27
+        }
+      }
+    }
+  },
+  "quality_checks": {
+    "status": "pass",
+    "failed_checks": [],
+    "warnings": [
+      "estimated_target_ratio:0.889>0.700"
+    ],
+    "summary": {
+      "rows": 108,
+      "artists": 97,
+      "years": [
+        2020,
+        2021,
+        2022,
+        2024
+      ],
+      "duplicate_artist_year_rows": 0,
+      "target_missing_ratio": 0.0,
+      "feature_missing_ratio_mean": 0.0,
+      "feature_missing_ratio_max": 0.0,
+      "drift_features_checked": [
+        "bonus_count",
+        "consistency_score",
+        "longevity_bonus",
+        "participations",
+        "is_debuttante_x",
+        "best_position",
+        "peak_performance",
+        "avg_position",
+        "recent_avg",
+        "median_position"
+      ],
+      "max_drift_feature": "best_position",
+      "max_drift_score": 0.8273454335338406,
+      "target_source_distribution": {
+        "estimated_from_classifiche": 96,
+        "real": 12
+      },
+      "estimated_target_ratio": 0.8888888888888888
+    }
+  },
+  "sample_weighting": {
+    "enabled": true,
+    "source_col": "punteggio_source",
+    "source_weight_map": {
+      "real": 1.0,
+      "estimated_from_storico_position": 0.8,
+      "estimated_from_classifiche": 0.55,
+      "missing": 0.55
+    },
+    "weight_summary": {
+      "min": 0.55,
+      "max": 1.0,
+      "mean": 0.5999999999999999
+    },
+    "applied_to": {
+      "classification": true,
+      "regression": false
+    }
+  },
+  "category_classifier_diagnostics": {
+    "grouped_cv": true,
+    "hyperparam_tuning_enabled": true,
+    "lgbm_classifier_available": true,
+    "catboost_classifier_available": true,
+    "sample_weighting_enabled": true,
+    "probability_calibration": "logistic_oof",
+    "threshold_tuning": "class_probability_multipliers"
+  },
+  "category_classifier_model": "gb_classifier",
+  "category_classifier_metrics": {
+    "model_name": "gb_classifier",
+    "samples": 108,
+    "features": 27,
+    "feature_selection_seed": 42,
+    "best_params": null,
+    "diagnostics": {
+      "grouped_cv": true,
+      "hyperparam_tuning_enabled": true,
+      "lgbm_classifier_available": true,
+      "catboost_classifier_available": true,
+      "sample_weighting_enabled": true,
+      "probability_calibration": "logistic_oof",
+      "threshold_tuning": "class_probability_multipliers"
+    },
+    "category_accuracy": 0.5925925925925926,
+    "category_macro_f1": 0.5875168146354587,
+    "category_balanced_accuracy": 0.5930799220272904
+  },
+  "stacking_validation": null
+}

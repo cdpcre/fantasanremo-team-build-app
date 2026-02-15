@@ -1,0 +1,775 @@
+{
+  "edizione": 2026,
+  "budget_totale": 100,
+  "titolari": 5,
+  "riserve": 2,
+  "festival": {
+    "date": "24-28 febbraio 2026",
+    "conduzione": "Carlo Conti con Laura Pausini"
+  },
+  "artisti": [
+    {
+      "storico_fantasanremo": [],
+      "quotazione": 17,
+      "id": 1,
+      "nome": "Tommaso Paradiso",
+      "anno_nascita": 1983,
+      "social_followers_total": 193000,
+      "social_followers_by_platform": {
+        "youtube_channel": 193000
+      },
+      "social_followers_last_updated": "2025-04-14",
+      "viralita_social": 79,
+      "storia_bonus_ottenuti": 0,
+      "ad_personam_bonus_count": 0,
+      "ad_personam_bonus_points": 0,
+      "genere_musicale": "Pop",
+      "prima_partecipazione": 2026,
+      "debuttante_2026": true,
+      "image_url": "https://fantasanremo.com/uploads/artists/6930a9dd94f1628b0c597ee0-1764859884849"
+    },
+    {
+      "storico_fantasanremo": [
+        {
+          "anno": 2021,
+          "posizione": 8,
+          "punteggio_finale": 245
+        },
+        {
+          "anno": 2025,
+          "posizione": 21,
+          "punteggio_finale": 195
+        }
+      ],
+      "quotazione": 17,
+      "id": 2,
+      "nome": "Fedez & Marco Masini",
+      "prima_partecipazione": 2021,
+      "note": "Fedez: 1989 - hip hop, pop rap; Marco Masini: 1964 - indie rock",
+      "anno_nascita": 1987,
+      "genere_musicale": "Hip-hop",
+      "social_followers_total": 2518897,
+      "social_followers_by_platform": {
+        "youtube_channel": 2486000,
+        "x_twitter_numeric": 32897
+      },
+      "social_followers_last_updated": "2025-05-11",
+      "viralita_social": 96,
+      "storia_bonus_ottenuti": 440,
+      "ad_personam_bonus_count": 0,
+      "ad_personam_bonus_points": 0,
+      "debuttante_2026": false,
+      "image_url": "https://fantasanremo.com/uploads/artists/6930a9dd94f1628b0c597ecc-1764859727792"
+    },
+    {
+      "storico_fantasanremo": [
+        {
+          "anno": 2021,
+          "posizione": 9,
+          "punteggio_finale": 235
+        }
+      ],
+      "quotazione": 16,
+      "id": 3,
+      "nome": "Arisa",
+      "prima_partecipazione": 2021,
+      "anno_nascita": 1982,
+      "genere_musicale": "Pop",
+      "social_followers_total": 571723,
+      "social_followers_by_platform": {
+        "x_twitter_numeric": 479323,
+        "youtube_channel": 92400
+      },
+      "social_followers_last_updated": "2025-02-01",
+      "viralita_social": 86,
+      "storia_bonus_ottenuti": 235,
+      "ad_personam_bonus_count": 1,
+      "ad_personam_bonus_points": 10,
+      "debuttante_2026": false,
+      "image_url": "https://fantasanremo.com/uploads/artists/6930a9dd94f1628b0c597ec3-1764859649104"
+    },
+    {
+      "storico_fantasanremo": [
+        {
+          "anno": 2022,
+          "posizione": 2,
+          "punteggio_finale": 395
+        },
+        {
+          "anno": 2024,
+          "posizione": 2,
+          "punteggio_finale": 460
+        }
+      ],
+      "quotazione": 16,
+      "id": 4,
+      "nome": "Dargen D'Amico",
+      "prima_partecipazione": 2022,
+      "anno_nascita": 1980,
+      "genere_musicale": "Pop",
+      "viralita_social": 87,
+      "storia_bonus_ottenuti": 855,
+      "ad_personam_bonus_count": 0,
+      "ad_personam_bonus_points": 0,
+      "followers_by_platform": {
+        "instagram": 320000,
+        "youtube_channel": 154000,
+        "x_twitter_numeric": 68376,
+        "facebook": 106969,
+        "tiktok": 363
+      },
+      "social_followers_total": 649708,
+      "social_followers_last_updated": "2026-02-07",
+      "social_followers_by_platform": {
+        "instagram": 320000,
+        "youtube_channel": 154000,
+        "x_twitter_numeric": 68376,
+        "facebook": 106969,
+        "tiktok": 363
+      },
+      "debuttante_2026": false,
+      "image_url": "https://fantasanremo.com/uploads/artists/6930a9dd94f1628b0c597ec6-1764859676497"
+    },
+    {
+      "storico_fantasanremo": [
+        {
+          "anno": 2021,
+          "posizione": 5,
+          "punteggio_finale": 275
+        }
+      ],
+      "quotazione": 16,
+      "id": 5,
+      "nome": "Ermal Meta",
+      "prima_partecipazione": 2021,
+      "anno_nascita": 1981,
+      "genere_musicale": "Pop",
+      "social_followers_total": 665306,
+      "social_followers_by_platform": {
+        "x_twitter_numeric": 270306,
+        "youtube_channel": 395000
+      },
+      "social_followers_last_updated": "2025-05-18",
+      "viralita_social": 87,
+      "storia_bonus_ottenuti": 275,
+      "ad_personam_bonus_count": 0,
+      "ad_personam_bonus_points": 0,
+      "debuttante_2026": false,
+      "image_url": "https://fantasanremo.com/uploads/artists/6930a9dd94f1628b0c597ecb-1764859720820"
+    },
+    {
+      "storico_fantasanremo": [
+        {
+          "anno": 2022,
+          "posizione": 11,
+          "punteggio_finale": 315
+        },
+        {
+          "anno": 2023,
+          "posizione": 12,
+          "punteggio_finale": 318
+        }
+      ],
+      "quotazione": 15,
+      "id": 6,
+      "nome": "LDA & Aka 7even",
+      "prima_partecipazione": 2022,
+      "note": "LDA: 2003 - pop latino, pop rap; Aka 7even: 2000 - ",
+      "anno_nascita": 2000,
+      "genere_musicale": "Pop",
+      "social_followers_total": 403129,
+      "social_followers_by_platform": {
+        "youtube_channel": 294100,
+        "x_twitter_numeric": 109029
+      },
+      "social_followers_last_updated": "2025-05-18",
+      "viralita_social": 84,
+      "storia_bonus_ottenuti": 633,
+      "ad_personam_bonus_count": 1,
+      "ad_personam_bonus_points": 10,
+      "debuttante_2026": false,
+      "image_url": "https://fantasanremo.com/uploads/artists/6930a9dd94f1628b0c597ed0-1765884919717"
+    },
+    {
+      "storico_fantasanremo": [
+        {
+          "anno": 2023,
+          "posizione": 18,
+          "punteggio_finale": 265
+        }
+      ],
+      "quotazione": 15,
+      "id": 7,
+      "nome": "Levante",
+      "prima_partecipazione": 2023,
+      "anno_nascita": 1987,
+      "genere_musicale": "Pop",
+      "social_followers_total": 154511,
+      "social_followers_by_platform": {
+        "x_twitter_numeric": 45511,
+        "youtube_channel": 109000
+      },
+      "social_followers_last_updated": "2025-07-05",
+      "viralita_social": 78,
+      "storia_bonus_ottenuti": 265,
+      "ad_personam_bonus_count": 1,
+      "ad_personam_bonus_points": 10,
+      "debuttante_2026": false,
+      "image_url": "https://fantasanremo.com/uploads/artists/6930a9dd94f1628b0c597ed2-1764859788449"
+    },
+    {
+      "storico_fantasanremo": [],
+      "quotazione": 15,
+      "id": 8,
+      "nome": "Luche",
+      "anno_nascita": 1981,
+      "social_followers_total": 515194,
+      "social_followers_by_platform": {
+        "x_twitter_numeric": 47194,
+        "youtube_channel": 468000
+      },
+      "social_followers_last_updated": "2025-08-24",
+      "viralita_social": 86,
+      "storia_bonus_ottenuti": 0,
+      "ad_personam_bonus_count": 0,
+      "ad_personam_bonus_points": 0,
+      "genere_musicale": "Hip-hop",
+      "prima_partecipazione": 2026,
+      "debuttante_2026": true,
+      "image_url": "https://fantasanremo.com/uploads/artists/6930a9dd94f1628b0c597ed3-1764859798590"
+    },
+    {
+      "storico_fantasanremo": [
+        {
+          "anno": 2021,
+          "posizione": 15,
+          "punteggio_finale": 195
+        }
+      ],
+      "quotazione": 15,
+      "id": 9,
+      "nome": "Malika Ayane",
+      "prima_partecipazione": 2021,
+      "anno_nascita": 1984,
+      "genere_musicale": "Pop/Rock",
+      "social_followers_total": 453327,
+      "social_followers_by_platform": {
+        "x_twitter_numeric": 285327,
+        "youtube_channel": 168000
+      },
+      "social_followers_last_updated": "2025-05-18",
+      "viralita_social": 85,
+      "storia_bonus_ottenuti": 195,
+      "ad_personam_bonus_count": 1,
+      "ad_personam_bonus_points": 10,
+      "debuttante_2026": false,
+      "image_url": "https://fantasanremo.com/uploads/artists/6930a9dd94f1628b0c597ed4-1768230363561"
+    },
+    {
+      "storico_fantasanremo": [
+        {
+          "anno": 2022,
+          "posizione": 10,
+          "punteggio_finale": 320
+        }
+      ],
+      "quotazione": 15,
+      "id": 10,
+      "nome": "Michele Bravi",
+      "prima_partecipazione": 2022,
+      "anno_nascita": 1994,
+      "genere_musicale": "Pop",
+      "social_followers_total": 1451708,
+      "social_followers_by_platform": {
+        "x_twitter_numeric": 869708,
+        "youtube_channel": 582000
+      },
+      "social_followers_last_updated": "2024-04-29",
+      "viralita_social": 92,
+      "storia_bonus_ottenuti": 320,
+      "ad_personam_bonus_count": 0,
+      "ad_personam_bonus_points": 0,
+      "debuttante_2026": false,
+      "image_url": "https://fantasanremo.com/uploads/artists/6930a9dd94f1628b0c597ed7-1764859827900"
+    },
+    {
+      "storico_fantasanremo": [
+        {
+          "anno": 2025,
+          "posizione": 14,
+          "punteggio_finale": 228
+        }
+      ],
+      "quotazione": 15,
+      "id": 11,
+      "nome": "Serena Brancale",
+      "prima_partecipazione": 2025,
+      "anno_nascita": 1989,
+      "genere_musicale": "Jazz/Funk/Rhythm and blues/Neo soul/Pop",
+      "social_followers_total": 31500,
+      "social_followers_by_platform": {
+        "youtube_channel": 31500
+      },
+      "social_followers_last_updated": "2025-08-24",
+      "viralita_social": 67,
+      "storia_bonus_ottenuti": 228,
+      "ad_personam_bonus_count": 0,
+      "ad_personam_bonus_points": 0,
+      "debuttante_2026": false,
+      "image_url": "https://fantasanremo.com/uploads/artists/6930a9dd94f1628b0c597ede-1765884939406"
+    },
+    {
+      "storico_fantasanremo": [],
+      "quotazione": 14,
+      "id": 12,
+      "nome": "Bambole di Pezza",
+      "anno_nascita": 1986,
+      "genere_musicale": "Pop",
+      "viralita_social": 80,
+      "storia_bonus_ottenuti": 0,
+      "ad_personam_bonus_count": 1,
+      "ad_personam_bonus_points": 10,
+      "note": "Gruppo musicale italiano; anno_nascita stimato da età media partecipanti 2026 (40 anni)",
+      "followers_by_platform": {
+        "instagram": 149000,
+        "youtube_channel": 13200,
+        "x_twitter_numeric": null,
+        "facebook": 324,
+        "tiktok": 45900
+      },
+      "social_followers_total": 208424,
+      "social_followers_last_updated": "2026-02-07",
+      "social_followers_by_platform": {
+        "instagram": 149000,
+        "youtube_channel": 13200,
+        "x_twitter_numeric": null,
+        "facebook": 324,
+        "tiktok": 45900
+      },
+      "prima_partecipazione": 2026,
+      "debuttante_2026": true,
+      "image_url": "https://fantasanremo.com/uploads/artists/6930a9dd94f1628b0c597ec4-1764859658052"
+    },
+    {
+      "storico_fantasanremo": [],
+      "quotazione": 14,
+      "id": 13,
+      "nome": "Eddie Brock",
+      "anno_nascita": 1997,
+      "viralita_social": 74,
+      "storia_bonus_ottenuti": 0,
+      "ad_personam_bonus_count": 1,
+      "ad_personam_bonus_points": 10,
+      "genere_musicale": "Pop",
+      "followers_by_platform": {
+        "instagram": 44000,
+        "youtube_channel": 35000,
+        "x_twitter_numeric": null,
+        "facebook": null,
+        "tiktok": 11500
+      },
+      "social_followers_total": 90500,
+      "social_followers_last_updated": "2026-02-07",
+      "social_followers_by_platform": {
+        "instagram": 44000,
+        "youtube_channel": 35000,
+        "x_twitter_numeric": null,
+        "facebook": null,
+        "tiktok": 11500
+      },
+      "prima_partecipazione": 2026,
+      "debuttante_2026": true,
+      "image_url": "https://fantasanremo.com/uploads/artists/6930a9dd94f1628b0c597ec8-1764859695255"
+    },
+    {
+      "storico_fantasanremo": [],
+      "quotazione": 14,
+      "id": 14,
+      "nome": "Elettra Lamborghini",
+      "anno_nascita": 1994,
+      "social_followers_total": 1895009,
+      "social_followers_by_platform": {
+        "x_twitter_numeric": 545009,
+        "youtube_channel": 1350000
+      },
+      "social_followers_last_updated": "2025-04-24",
+      "viralita_social": 94,
+      "storia_bonus_ottenuti": 0,
+      "ad_personam_bonus_count": 0,
+      "ad_personam_bonus_points": 0,
+      "genere_musicale": "Pop",
+      "prima_partecipazione": 2026,
+      "debuttante_2026": true,
+      "image_url": "https://fantasanremo.com/uploads/artists/6930a9dd94f1628b0c597ec9-1764859702963"
+    },
+    {
+      "storico_fantasanremo": [
+        {
+          "anno": 2021,
+          "posizione": 21,
+          "punteggio_finale": 155
+        }
+      ],
+      "quotazione": 14,
+      "id": 15,
+      "nome": "Fulminacci",
+      "prima_partecipazione": 2021,
+      "anno_nascita": 1997,
+      "viralita_social": 82,
+      "storia_bonus_ottenuti": 155,
+      "ad_personam_bonus_count": 1,
+      "ad_personam_bonus_points": 10,
+      "genere_musicale": "Indie Pop",
+      "followers_by_platform": {
+        "instagram": 166000,
+        "youtube_channel": 65200,
+        "x_twitter_numeric": 13970,
+        "facebook": 27540,
+        "tiktok": 12500
+      },
+      "social_followers_total": 285210,
+      "social_followers_last_updated": "2026-02-07",
+      "social_followers_by_platform": {
+        "instagram": 166000,
+        "youtube_channel": 65200,
+        "x_twitter_numeric": 13970,
+        "facebook": 27540,
+        "tiktok": 12500
+      },
+      "debuttante_2026": false,
+      "image_url": "https://fantasanremo.com/uploads/artists/6930a9dd94f1628b0c597ece-1764859757645"
+    },
+    {
+      "storico_fantasanremo": [
+        {
+          "anno": 2023,
+          "posizione": 27,
+          "punteggio_finale": 128
+        }
+      ],
+      "quotazione": 14,
+      "id": 16,
+      "nome": "Leo Gassmann",
+      "prima_partecipazione": 2023,
+      "anno_nascita": 1998,
+      "social_followers_total": 38400,
+      "social_followers_by_platform": {
+        "youtube_channel": 38400
+      },
+      "social_followers_last_updated": "2025-01-26",
+      "viralita_social": 69,
+      "storia_bonus_ottenuti": 128,
+      "ad_personam_bonus_count": 0,
+      "ad_personam_bonus_points": 0,
+      "genere_musicale": "Pop",
+      "debuttante_2026": false,
+      "image_url": "https://fantasanremo.com/uploads/artists/6930a9dd94f1628b0c597ed1-1765884930052"
+    },
+    {
+      "storico_fantasanremo": [
+        {
+          "anno": 2023,
+          "posizione": 24,
+          "punteggio_finale": 178
+        }
+      ],
+      "quotazione": 14,
+      "id": 17,
+      "nome": "Mara Sattei",
+      "prima_partecipazione": 2023,
+      "anno_nascita": 1995,
+      "social_followers_total": 341000,
+      "social_followers_by_platform": {
+        "youtube_channel": 341000
+      },
+      "social_followers_last_updated": "2021-07-03",
+      "viralita_social": 83,
+      "storia_bonus_ottenuti": 178,
+      "ad_personam_bonus_count": 0,
+      "ad_personam_bonus_points": 0,
+      "genere_musicale": "Pop",
+      "debuttante_2026": false,
+      "image_url": "https://fantasanremo.com/uploads/artists/6930a9dd94f1628b0c597ed5-1764859812618"
+    },
+    {
+      "storico_fantasanremo": [],
+      "quotazione": 14,
+      "id": 18,
+      "nome": "Nayt",
+      "anno_nascita": 1994,
+      "genere_musicale": "Hip-hop",
+      "social_followers_total": 100000,
+      "social_followers_by_platform": {
+        "youtube_channel": 100000
+      },
+      "social_followers_last_updated": "2025-10-25",
+      "viralita_social": 75,
+      "storia_bonus_ottenuti": 0,
+      "ad_personam_bonus_count": 0,
+      "ad_personam_bonus_points": 0,
+      "prima_partecipazione": 2026,
+      "debuttante_2026": true,
+      "image_url": "https://fantasanremo.com/uploads/artists/6930a9dd94f1628b0c597ed8-1764859835257"
+    },
+    {
+      "storico_fantasanremo": [],
+      "quotazione": 14,
+      "id": 19,
+      "nome": "Samurai Jay",
+      "anno_nascita": 1998,
+      "social_followers_total": 113000,
+      "social_followers_by_platform": {
+        "youtube_channel": 113000
+      },
+      "social_followers_last_updated": "2025-12-06",
+      "viralita_social": 76,
+      "storia_bonus_ottenuti": 0,
+      "ad_personam_bonus_count": 1,
+      "ad_personam_bonus_points": 10,
+      "genere_musicale": "Hip-hop",
+      "prima_partecipazione": 2026,
+      "debuttante_2026": true,
+      "image_url": "https://fantasanremo.com/uploads/artists/6930a9dd94f1628b0c597edc-1764859865138"
+    },
+    {
+      "storico_fantasanremo": [],
+      "quotazione": 13,
+      "id": 20,
+      "nome": "Chiello",
+      "anno_nascita": 1999,
+      "social_followers_total": 34900,
+      "social_followers_by_platform": {
+        "youtube_channel": 34900
+      },
+      "social_followers_last_updated": "2025-05-18",
+      "viralita_social": 68,
+      "storia_bonus_ottenuti": 0,
+      "ad_personam_bonus_count": 1,
+      "ad_personam_bonus_points": 3,
+      "genere_musicale": "Hip-hop",
+      "prima_partecipazione": 2026,
+      "debuttante_2026": true,
+      "image_url": "https://fantasanremo.com/uploads/artists/6930a9dd94f1628b0c597ec5-1764859668104"
+    },
+    {
+      "storico_fantasanremo": [
+        {
+          "anno": 2022,
+          "posizione": 13,
+          "punteggio_finale": 285
+        }
+      ],
+      "quotazione": 13,
+      "id": 21,
+      "nome": "Ditonellapiaga",
+      "prima_partecipazione": 2022,
+      "anno_nascita": 1997,
+      "genere_musicale": "Indie Pop",
+      "social_followers_total": 23816,
+      "social_followers_by_platform": {
+        "youtube_channel": 11300,
+        "x_twitter_numeric": 12516
+      },
+      "social_followers_last_updated": "2025-02-22",
+      "viralita_social": 66,
+      "storia_bonus_ottenuti": 285,
+      "ad_personam_bonus_count": 0,
+      "ad_personam_bonus_points": 0,
+      "debuttante_2026": false,
+      "image_url": "https://fantasanremo.com/uploads/artists/6930a9dd94f1628b0c597ec7-1764859685335"
+    },
+    {
+      "storico_fantasanremo": [],
+      "quotazione": 13,
+      "id": 22,
+      "nome": "Enrico Nigiotti",
+      "anno_nascita": 1987,
+      "social_followers_total": 158000,
+      "social_followers_by_platform": {
+        "youtube_channel": 158000
+      },
+      "social_followers_last_updated": "2025-04-27",
+      "viralita_social": 78,
+      "storia_bonus_ottenuti": 0,
+      "ad_personam_bonus_count": 0,
+      "ad_personam_bonus_points": 0,
+      "genere_musicale": "Pop",
+      "prima_partecipazione": 2026,
+      "debuttante_2026": true,
+      "image_url": "https://fantasanremo.com/uploads/artists/6930a9dd94f1628b0c597eca-1764859709535"
+    },
+    {
+      "storico_fantasanremo": [
+        {
+          "anno": 2021,
+          "posizione": 20,
+          "punteggio_finale": 185
+        },
+        {
+          "anno": 2024,
+          "posizione": 12,
+          "punteggio_finale": 334
+        }
+      ],
+      "quotazione": 13,
+      "id": 23,
+      "nome": "Francesco Renga",
+      "prima_partecipazione": 2021,
+      "anno_nascita": 1968,
+      "genere_musicale": "Pop/Rock",
+      "social_followers_total": 340000,
+      "social_followers_by_platform": {
+        "youtube_channel": 340000
+      },
+      "social_followers_last_updated": "2025-06-14",
+      "viralita_social": 83,
+      "storia_bonus_ottenuti": 519,
+      "ad_personam_bonus_count": 1,
+      "ad_personam_bonus_points": 10,
+      "debuttante_2026": false,
+      "image_url": "https://fantasanremo.com/uploads/artists/6930a9dd94f1628b0c597ecd-1764859747858"
+    },
+    {
+      "storico_fantasanremo": [],
+      "quotazione": 13,
+      "id": 24,
+      "nome": "J-Ax",
+      "anno_nascita": 1972,
+      "genere_musicale": "Hip-hop",
+      "social_followers_total": 3226623,
+      "social_followers_by_platform": {
+        "x_twitter_numeric": 2106623,
+        "youtube_channel": 1120000
+      },
+      "social_followers_last_updated": "2024-03-30",
+      "viralita_social": 98,
+      "storia_bonus_ottenuti": 0,
+      "ad_personam_bonus_count": 0,
+      "ad_personam_bonus_points": 0,
+      "prima_partecipazione": 2026,
+      "debuttante_2026": true,
+      "image_url": "https://fantasanremo.com/uploads/artists/6930a9dd94f1628b0c597ecf-1764859764491"
+    },
+    {
+      "storico_fantasanremo": [],
+      "quotazione": 13,
+      "id": 25,
+      "nome": "Maria Antonietta & Colombre",
+      "note": "Maria Antonietta: None - Pop; Colombre: 1982 - Indie Pop",
+      "anno_nascita": 1982,
+      "social_followers_total": 49300,
+      "social_followers_by_platform": {
+        "instagram": 49300
+      },
+      "social_followers_last_updated": "2025-11-30",
+      "viralita_social": 70,
+      "storia_bonus_ottenuti": 0,
+      "ad_personam_bonus_count": 0,
+      "ad_personam_bonus_points": 0,
+      "genere_musicale": "Pop",
+      "prima_partecipazione": 2026,
+      "debuttante_2026": true,
+      "image_url": "https://fantasanremo.com/uploads/artists/6930a9dd94f1628b0c597ed6-1764859820613"
+    },
+    {
+      "storico_fantasanremo": [],
+      "quotazione": 13,
+      "id": 26,
+      "nome": "Patty Pravo",
+      "anno_nascita": 1948,
+      "genere_musicale": "Pop",
+      "social_followers_total": 21649,
+      "social_followers_by_platform": {
+        "x_twitter_numeric": 21649
+      },
+      "social_followers_last_updated": "2023-02-08",
+      "viralita_social": 65,
+      "storia_bonus_ottenuti": 0,
+      "ad_personam_bonus_count": 1,
+      "ad_personam_bonus_points": 10,
+      "prima_partecipazione": 2026,
+      "debuttante_2026": true,
+      "image_url": "https://fantasanremo.com/uploads/artists/6930a9dd94f1628b0c597ed9-1764859842028"
+    },
+    {
+      "storico_fantasanremo": [],
+      "quotazione": 13,
+      "id": 27,
+      "nome": "Raf",
+      "anno_nascita": 1959,
+      "genere_musicale": "Pop rock",
+      "social_followers_total": 27031,
+      "social_followers_by_platform": {
+        "x_twitter_numeric": 27031
+      },
+      "social_followers_last_updated": "2023-02-05",
+      "viralita_social": 66,
+      "storia_bonus_ottenuti": 0,
+      "ad_personam_bonus_count": 0,
+      "ad_personam_bonus_points": 0,
+      "prima_partecipazione": 2026,
+      "debuttante_2026": true,
+      "image_url": "https://fantasanremo.com/uploads/artists/6930a9dd94f1628b0c597eda-1764859848584"
+    },
+    {
+      "storico_fantasanremo": [],
+      "quotazione": 13,
+      "id": 28,
+      "nome": "Sal Da Vinci",
+      "anno_nascita": 1969,
+      "genere_musicale": "Pop",
+      "social_followers_total": 13202,
+      "social_followers_by_platform": {
+        "x_twitter_numeric": 13202
+      },
+      "social_followers_last_updated": "2023-02-08",
+      "viralita_social": 62,
+      "storia_bonus_ottenuti": 0,
+      "ad_personam_bonus_count": 0,
+      "ad_personam_bonus_points": 0,
+      "prima_partecipazione": 2026,
+      "debuttante_2026": true,
+      "image_url": "https://fantasanremo.com/uploads/artists/6930a9dd94f1628b0c597edb-1764859856513"
+    },
+    {
+      "storico_fantasanremo": [],
+      "quotazione": 13,
+      "id": 29,
+      "nome": "Sayf",
+      "anno_nascita": 1999,
+      "genere_musicale": "Hip-hop",
+      "social_followers_total": 19100,
+      "social_followers_by_platform": {
+        "youtube_channel": 19100
+      },
+      "social_followers_last_updated": "2025-07-30",
+      "viralita_social": 64,
+      "storia_bonus_ottenuti": 0,
+      "ad_personam_bonus_count": 0,
+      "ad_personam_bonus_points": 0,
+      "prima_partecipazione": 2026,
+      "debuttante_2026": true,
+      "image_url": "https://fantasanremo.com/uploads/artists/6930a9dd94f1628b0c597edd-1764859872529"
+    },
+    {
+      "storico_fantasanremo": [],
+      "quotazione": 13,
+      "id": 30,
+      "nome": "Tredici Pietro",
+      "anno_nascita": 1997,
+      "social_followers_total": 112000,
+      "social_followers_by_platform": {
+        "youtube_channel": 112000
+      },
+      "social_followers_last_updated": "2025-10-20",
+      "viralita_social": 76,
+      "storia_bonus_ottenuti": 0,
+      "ad_personam_bonus_count": 1,
+      "ad_personam_bonus_points": 13,
+      "genere_musicale": "Hip-hop",
+      "prima_partecipazione": 2026,
+      "debuttante_2026": true,
+      "image_url": "https://fantasanremo.com/uploads/artists/6930a9dd94f1628b0c597edf-1764859891227"
+    }
+  ]
+}

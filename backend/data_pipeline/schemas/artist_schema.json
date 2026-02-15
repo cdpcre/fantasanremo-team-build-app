@@ -1,0 +1,94 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Fantasanremo Artisti 2026 Schema",
+  "description": "Schema per il file artisti_2026_enriched.json con gli artisti partecipanti all'edizione 2026",
+  "type": "object",
+  "required": ["edizione", "budget_totale", "artisti"],
+  "properties": {
+    "edizione": {
+      "type": "integer",
+      "description": "Anno dell'edizione FantaSanremo",
+      "minimum": 2020,
+      "maximum": 2030
+    },
+    "budget_totale": {
+      "type": "integer",
+      "description": "Budget totale in baudi per formare una squadra",
+      "const": 100
+    },
+    "titolari": {
+      "type": "integer",
+      "description": "Numero di titolari in squadra",
+      "const": 5
+    },
+    "riserve": {
+      "type": "integer",
+      "description": "Numero di riserve in squadra",
+      "const": 2
+    },
+    "festival": {
+      "type": "object",
+      "description": "Informazioni sul Festival di Sanremo",
+      "properties": {
+        "date": {
+          "type": "string",
+          "description": "Date del festival"
+        },
+        "conduzione": {
+          "type": "string",
+          "description": "Conduttori del festival"
+        }
+      }
+    },
+    "artisti": {
+      "type": "array",
+      "description": "Lista degli artisti partecipanti",
+      "items": {
+        "type": "object",
+        "required": ["id", "nome", "quotazione"],
+        "properties": {
+          "id": {
+            "type": "integer",
+            "description": "ID univoco dell'artista",
+            "minimum": 1
+          },
+          "nome": {
+            "type": "string",
+            "description": "Nome dell'artista",
+            "minLength": 1
+          },
+          "quotazione": {
+            "type": "integer",
+            "description": "Quotazione in baudi (13-17)",
+            "minimum": 13,
+            "maximum": 17
+          },
+          "debuttante_2026": {
+            "type": "boolean",
+            "description": "True se l'artista è debuttante nel 2026"
+          },
+          "storico_fantasanremo": {
+            "type": "array",
+            "description": "Storico partecipazioni FantaSanremo",
+            "items": {
+              "type": "object",
+              "required": ["anno", "posizione"],
+              "properties": {
+                "anno": {
+                  "type": "integer",
+                  "minimum": 2020,
+                  "maximum": 2025
+                },
+                "posizione": {
+                  "type": "integer",
+                  "minimum": 1,
+                  "maximum": 30
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

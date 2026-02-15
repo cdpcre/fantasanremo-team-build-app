@@ -1,0 +1,45 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Fantasanremo Artisti Biografico Schema",
+  "description": "Schema per i dati biografici degli artisti 2026",
+  "type": "object",
+  "required": ["artisti_2026_biografico"],
+  "properties": {
+    "artisti_2026_biografico": {
+      "type": "array",
+      "description": "Lista dei dati biografici degli artisti",
+      "items": {
+        "type": "object",
+        "required": ["nome"],
+        "properties": {
+          "nome": {
+            "type": "string",
+            "description": "Nome dell'artista",
+            "minLength": 1
+          },
+          "genere_musicale": {
+            "type": "string",
+            "description": "Genere musicale",
+            "enum": ["Pop", "Rap", "Hip-hop", "Rock", "Indie", "Urban", "Pop/Rock", "Napoletana", "Blues", "Reggaeton", "Pop Rap", "Dance", "Elettronica"]
+          },
+          "anno_nascita": {
+            "type": "integer",
+            "description": "Anno di nascita",
+            "minimum": 1940,
+            "maximum": 2010
+          },
+          "prima_partecipazione": {
+            "type": "integer",
+            "description": "Anno prima partecipazione a Sanremo",
+            "minimum": 1950,
+            "maximum": 2026
+          },
+          "note": {
+            "type": "string",
+            "description": "Note aggiuntive sull'artista"
+          }
+        }
+      }
+    }
+  }
+}

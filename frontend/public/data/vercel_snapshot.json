@@ -1,0 +1,704 @@
+{
+  "generated_at": "2026-02-14T16:14:45.129629+00:00",
+  "source_db": "fantasanremo.db",
+  "artisti": [
+    {
+      "id": 3,
+      "nome": "Arisa",
+      "quotazione_2026": 16,
+      "genere_musicale": "Pop",
+      "anno_nascita": 1982,
+      "prima_partecipazione": 2021,
+      "debuttante_2026": false,
+      "image_url": "https://fantasanremo.com/uploads/artists/6930a9dd94f1628b0c597ec3-1764859649104",
+      "predizione_2026": {
+        "id": 3,
+        "artista_id": 3,
+        "punteggio_predetto": 294.51,
+        "confidence": 0.85,
+        "livello_performer": "MEDIUM"
+      },
+      "edizioni_fantasanremo": [
+        {
+          "id": 3,
+          "artista_id": 3,
+          "anno": 2021,
+          "punteggio_finale": 235,
+          "posizione": 9,
+          "quotazione_baudi": 26
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "nome": "Bambole di Pezza",
+      "quotazione_2026": 14,
+      "genere_musicale": "Pop",
+      "anno_nascita": 1986,
+      "prima_partecipazione": 2026,
+      "debuttante_2026": true,
+      "image_url": "https://fantasanremo.com/uploads/artists/6930a9dd94f1628b0c597ec4-1764859658052",
+      "predizione_2026": {
+        "id": 12,
+        "artista_id": 12,
+        "punteggio_predetto": 234.24,
+        "confidence": 0.2,
+        "livello_performer": "HIGH"
+      },
+      "edizioni_fantasanremo": []
+    },
+    {
+      "id": 20,
+      "nome": "Chiello",
+      "quotazione_2026": 13,
+      "genere_musicale": "Hip-hop",
+      "anno_nascita": 1999,
+      "prima_partecipazione": 2026,
+      "debuttante_2026": true,
+      "image_url": "https://fantasanremo.com/uploads/artists/6930a9dd94f1628b0c597ec5-1764859668104",
+      "predizione_2026": {
+        "id": 20,
+        "artista_id": 20,
+        "punteggio_predetto": 120.1,
+        "confidence": 0.74,
+        "livello_performer": "MEDIUM"
+      },
+      "edizioni_fantasanremo": []
+    },
+    {
+      "id": 4,
+      "nome": "Dargen D'Amico",
+      "quotazione_2026": 16,
+      "genere_musicale": "Pop",
+      "anno_nascita": 1980,
+      "prima_partecipazione": 2022,
+      "debuttante_2026": false,
+      "image_url": "https://fantasanremo.com/uploads/artists/6930a9dd94f1628b0c597ec6-1764859676497",
+      "predizione_2026": {
+        "id": 4,
+        "artista_id": 4,
+        "punteggio_predetto": 321.43,
+        "confidence": 0.51,
+        "livello_performer": "MEDIUM"
+      },
+      "edizioni_fantasanremo": [
+        {
+          "id": 4,
+          "artista_id": 4,
+          "anno": 2022,
+          "punteggio_finale": 395,
+          "posizione": 2,
+          "quotazione_baudi": 16
+        },
+        {
+          "id": 5,
+          "artista_id": 4,
+          "anno": 2024,
+          "punteggio_finale": 460,
+          "posizione": 2,
+          "quotazione_baudi": 22
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "nome": "Ditonellapiaga",
+      "quotazione_2026": 13,
+      "genere_musicale": "Indie Pop",
+      "anno_nascita": 1997,
+      "prima_partecipazione": 2022,
+      "debuttante_2026": false,
+      "image_url": "https://fantasanremo.com/uploads/artists/6930a9dd94f1628b0c597ec7-1764859685335",
+      "predizione_2026": {
+        "id": 21,
+        "artista_id": 21,
+        "punteggio_predetto": 272.13,
+        "confidence": 0.7,
+        "livello_performer": "MEDIUM"
+      },
+      "edizioni_fantasanremo": [
+        {
+          "id": 16,
+          "artista_id": 21,
+          "anno": 2022,
+          "punteggio_finale": 285,
+          "posizione": 13,
+          "quotazione_baudi": 16
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "nome": "Eddie Brock",
+      "quotazione_2026": 14,
+      "genere_musicale": "Pop",
+      "anno_nascita": 1997,
+      "prima_partecipazione": 2026,
+      "debuttante_2026": true,
+      "image_url": "https://fantasanremo.com/uploads/artists/6930a9dd94f1628b0c597ec8-1764859695255",
+      "predizione_2026": {
+        "id": 13,
+        "artista_id": 13,
+        "punteggio_predetto": 219.01,
+        "confidence": 0.56,
+        "livello_performer": "MEDIUM"
+      },
+      "edizioni_fantasanremo": []
+    },
+    {
+      "id": 14,
+      "nome": "Elettra Lamborghini",
+      "quotazione_2026": 14,
+      "genere_musicale": "Pop",
+      "anno_nascita": 1994,
+      "prima_partecipazione": 2026,
+      "debuttante_2026": true,
+      "image_url": "https://fantasanremo.com/uploads/artists/6930a9dd94f1628b0c597ec9-1764859702963",
+      "predizione_2026": {
+        "id": 14,
+        "artista_id": 14,
+        "punteggio_predetto": 254.96,
+        "confidence": 0.01,
+        "livello_performer": "MEDIUM"
+      },
+      "edizioni_fantasanremo": []
+    },
+    {
+      "id": 22,
+      "nome": "Enrico Nigiotti",
+      "quotazione_2026": 13,
+      "genere_musicale": "Pop",
+      "anno_nascita": 1987,
+      "prima_partecipazione": 2026,
+      "debuttante_2026": true,
+      "image_url": "https://fantasanremo.com/uploads/artists/6930a9dd94f1628b0c597eca-1764859709535",
+      "predizione_2026": {
+        "id": 22,
+        "artista_id": 22,
+        "punteggio_predetto": 244.81,
+        "confidence": 0.18,
+        "livello_performer": "MEDIUM"
+      },
+      "edizioni_fantasanremo": []
+    },
+    {
+      "id": 5,
+      "nome": "Ermal Meta",
+      "quotazione_2026": 16,
+      "genere_musicale": "Pop",
+      "anno_nascita": 1981,
+      "prima_partecipazione": 2021,
+      "debuttante_2026": false,
+      "image_url": "https://fantasanremo.com/uploads/artists/6930a9dd94f1628b0c597ecb-1764859720820",
+      "predizione_2026": {
+        "id": 5,
+        "artista_id": 5,
+        "punteggio_predetto": 320.74,
+        "confidence": 0.21,
+        "livello_performer": "MEDIUM"
+      },
+      "edizioni_fantasanremo": [
+        {
+          "id": 6,
+          "artista_id": 5,
+          "anno": 2021,
+          "punteggio_finale": 275,
+          "posizione": 5,
+          "quotazione_baudi": 22
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Fedez & Marco Masini",
+      "quotazione_2026": 17,
+      "genere_musicale": "Hip-hop",
+      "anno_nascita": 1987,
+      "prima_partecipazione": 2021,
+      "debuttante_2026": false,
+      "image_url": "https://fantasanremo.com/uploads/artists/6930a9dd94f1628b0c597ecc-1764859727792",
+      "predizione_2026": {
+        "id": 2,
+        "artista_id": 2,
+        "punteggio_predetto": 326.48,
+        "confidence": 0.3,
+        "livello_performer": "HIGH"
+      },
+      "edizioni_fantasanremo": [
+        {
+          "id": 1,
+          "artista_id": 2,
+          "anno": 2021,
+          "punteggio_finale": 245,
+          "posizione": 8,
+          "quotazione_baudi": 38
+        },
+        {
+          "id": 2,
+          "artista_id": 2,
+          "anno": 2025,
+          "punteggio_finale": 195,
+          "posizione": 21,
+          "quotazione_baudi": 17
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "nome": "Francesco Renga",
+      "quotazione_2026": 13,
+      "genere_musicale": "Pop/Rock",
+      "anno_nascita": 1968,
+      "prima_partecipazione": 2021,
+      "debuttante_2026": false,
+      "image_url": "https://fantasanremo.com/uploads/artists/6930a9dd94f1628b0c597ecd-1764859747858",
+      "predizione_2026": {
+        "id": 23,
+        "artista_id": 23,
+        "punteggio_predetto": 289.53,
+        "confidence": 0.19,
+        "livello_performer": "MEDIUM"
+      },
+      "edizioni_fantasanremo": [
+        {
+          "id": 17,
+          "artista_id": 23,
+          "anno": 2021,
+          "punteggio_finale": 185,
+          "posizione": 20,
+          "quotazione_baudi": 24
+        },
+        {
+          "id": 18,
+          "artista_id": 23,
+          "anno": 2024,
+          "punteggio_finale": 334,
+          "posizione": 12,
+          "quotazione_baudi": 20
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "nome": "Fulminacci",
+      "quotazione_2026": 14,
+      "genere_musicale": "Indie Pop",
+      "anno_nascita": 1997,
+      "prima_partecipazione": 2021,
+      "debuttante_2026": false,
+      "image_url": "https://fantasanremo.com/uploads/artists/6930a9dd94f1628b0c597ece-1764859757645",
+      "predizione_2026": {
+        "id": 15,
+        "artista_id": 15,
+        "punteggio_predetto": 231.47,
+        "confidence": 0.37,
+        "livello_performer": "MEDIUM"
+      },
+      "edizioni_fantasanremo": [
+        {
+          "id": 13,
+          "artista_id": 15,
+          "anno": 2021,
+          "punteggio_finale": 155,
+          "posizione": 21,
+          "quotazione_baudi": 16
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "nome": "J-Ax",
+      "quotazione_2026": 13,
+      "genere_musicale": "Hip-hop",
+      "anno_nascita": 1972,
+      "prima_partecipazione": 2026,
+      "debuttante_2026": true,
+      "image_url": "https://fantasanremo.com/uploads/artists/6930a9dd94f1628b0c597ecf-1764859764491",
+      "predizione_2026": {
+        "id": 24,
+        "artista_id": 24,
+        "punteggio_predetto": 262.57,
+        "confidence": 0.02,
+        "livello_performer": "HIGH"
+      },
+      "edizioni_fantasanremo": []
+    },
+    {
+      "id": 6,
+      "nome": "LDA & Aka 7even",
+      "quotazione_2026": 15,
+      "genere_musicale": "Pop",
+      "anno_nascita": 2000,
+      "prima_partecipazione": 2022,
+      "debuttante_2026": false,
+      "image_url": "https://fantasanremo.com/uploads/artists/6930a9dd94f1628b0c597ed0-1765884919717",
+      "predizione_2026": {
+        "id": 6,
+        "artista_id": 6,
+        "punteggio_predetto": 192.1,
+        "confidence": 0.44,
+        "livello_performer": "MEDIUM"
+      },
+      "edizioni_fantasanremo": [
+        {
+          "id": 7,
+          "artista_id": 6,
+          "anno": 2022,
+          "punteggio_finale": 315,
+          "posizione": 11,
+          "quotazione_baudi": 23
+        },
+        {
+          "id": 8,
+          "artista_id": 6,
+          "anno": 2023,
+          "punteggio_finale": 318,
+          "posizione": 12,
+          "quotazione_baudi": 16
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "nome": "Leo Gassmann",
+      "quotazione_2026": 14,
+      "genere_musicale": "Pop",
+      "anno_nascita": 1998,
+      "prima_partecipazione": 2023,
+      "debuttante_2026": false,
+      "image_url": "https://fantasanremo.com/uploads/artists/6930a9dd94f1628b0c597ed1-1765884930052",
+      "predizione_2026": {
+        "id": 16,
+        "artista_id": 16,
+        "punteggio_predetto": 239.69,
+        "confidence": 0.0,
+        "livello_performer": "MEDIUM"
+      },
+      "edizioni_fantasanremo": [
+        {
+          "id": 14,
+          "artista_id": 16,
+          "anno": 2023,
+          "punteggio_finale": 128,
+          "posizione": 27,
+          "quotazione_baudi": 18
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "nome": "Levante",
+      "quotazione_2026": 15,
+      "genere_musicale": "Pop",
+      "anno_nascita": 1987,
+      "prima_partecipazione": 2023,
+      "debuttante_2026": false,
+      "image_url": "https://fantasanremo.com/uploads/artists/6930a9dd94f1628b0c597ed2-1764859788449",
+      "predizione_2026": {
+        "id": 7,
+        "artista_id": 7,
+        "punteggio_predetto": 274.09,
+        "confidence": 0.57,
+        "livello_performer": "MEDIUM"
+      },
+      "edizioni_fantasanremo": [
+        {
+          "id": 9,
+          "artista_id": 7,
+          "anno": 2023,
+          "punteggio_finale": 265,
+          "posizione": 18,
+          "quotazione_baudi": 20
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "nome": "Luche",
+      "quotazione_2026": 15,
+      "genere_musicale": "Hip-hop",
+      "anno_nascita": 1981,
+      "prima_partecipazione": 2026,
+      "debuttante_2026": true,
+      "image_url": "https://fantasanremo.com/uploads/artists/6930a9dd94f1628b0c597ed3-1764859798590",
+      "predizione_2026": {
+        "id": 8,
+        "artista_id": 8,
+        "punteggio_predetto": 294.87,
+        "confidence": 0.1,
+        "livello_performer": "HIGH"
+      },
+      "edizioni_fantasanremo": []
+    },
+    {
+      "id": 9,
+      "nome": "Malika Ayane",
+      "quotazione_2026": 15,
+      "genere_musicale": "Pop/Rock",
+      "anno_nascita": 1984,
+      "prima_partecipazione": 2021,
+      "debuttante_2026": false,
+      "image_url": "https://fantasanremo.com/uploads/artists/6930a9dd94f1628b0c597ed4-1768230363561",
+      "predizione_2026": {
+        "id": 9,
+        "artista_id": 9,
+        "punteggio_predetto": 292.42,
+        "confidence": 0.74,
+        "livello_performer": "MEDIUM"
+      },
+      "edizioni_fantasanremo": [
+        {
+          "id": 10,
+          "artista_id": 9,
+          "anno": 2021,
+          "punteggio_finale": 195,
+          "posizione": 15,
+          "quotazione_baudi": 23
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "nome": "Mara Sattei",
+      "quotazione_2026": 14,
+      "genere_musicale": "Pop",
+      "anno_nascita": 1995,
+      "prima_partecipazione": 2023,
+      "debuttante_2026": false,
+      "image_url": "https://fantasanremo.com/uploads/artists/6930a9dd94f1628b0c597ed5-1764859812618",
+      "predizione_2026": {
+        "id": 17,
+        "artista_id": 17,
+        "punteggio_predetto": 244.81,
+        "confidence": 0.06,
+        "livello_performer": "MEDIUM"
+      },
+      "edizioni_fantasanremo": [
+        {
+          "id": 15,
+          "artista_id": 17,
+          "anno": 2023,
+          "punteggio_finale": 178,
+          "posizione": 24,
+          "quotazione_baudi": 21
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "nome": "Maria Antonietta & Colombre",
+      "quotazione_2026": 13,
+      "genere_musicale": "Pop",
+      "anno_nascita": 1982,
+      "prima_partecipazione": 2026,
+      "debuttante_2026": true,
+      "image_url": "https://fantasanremo.com/uploads/artists/6930a9dd94f1628b0c597ed6-1764859820613",
+      "predizione_2026": {
+        "id": 25,
+        "artista_id": 25,
+        "punteggio_predetto": 256.15,
+        "confidence": 0.17,
+        "livello_performer": "HIGH"
+      },
+      "edizioni_fantasanremo": []
+    },
+    {
+      "id": 10,
+      "nome": "Michele Bravi",
+      "quotazione_2026": 15,
+      "genere_musicale": "Pop",
+      "anno_nascita": 1994,
+      "prima_partecipazione": 2022,
+      "debuttante_2026": false,
+      "image_url": "https://fantasanremo.com/uploads/artists/6930a9dd94f1628b0c597ed7-1764859827900",
+      "predizione_2026": {
+        "id": 10,
+        "artista_id": 10,
+        "punteggio_predetto": 309.28,
+        "confidence": 0.41,
+        "livello_performer": "MEDIUM"
+      },
+      "edizioni_fantasanremo": [
+        {
+          "id": 11,
+          "artista_id": 10,
+          "anno": 2022,
+          "punteggio_finale": 320,
+          "posizione": 10,
+          "quotazione_baudi": 23
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "nome": "Nayt",
+      "quotazione_2026": 14,
+      "genere_musicale": "Hip-hop",
+      "anno_nascita": 1994,
+      "prima_partecipazione": 2026,
+      "debuttante_2026": true,
+      "image_url": "https://fantasanremo.com/uploads/artists/6930a9dd94f1628b0c597ed8-1764859835257",
+      "predizione_2026": {
+        "id": 18,
+        "artista_id": 18,
+        "punteggio_predetto": 215.23,
+        "confidence": 0.47,
+        "livello_performer": "MEDIUM"
+      },
+      "edizioni_fantasanremo": []
+    },
+    {
+      "id": 26,
+      "nome": "Patty Pravo",
+      "quotazione_2026": 13,
+      "genere_musicale": "Pop",
+      "anno_nascita": 1948,
+      "prima_partecipazione": 2026,
+      "debuttante_2026": true,
+      "image_url": "https://fantasanremo.com/uploads/artists/6930a9dd94f1628b0c597ed9-1764859842028",
+      "predizione_2026": {
+        "id": 26,
+        "artista_id": 26,
+        "punteggio_predetto": 162.14,
+        "confidence": 0.57,
+        "livello_performer": "HIGH"
+      },
+      "edizioni_fantasanremo": []
+    },
+    {
+      "id": 27,
+      "nome": "Raf",
+      "quotazione_2026": 13,
+      "genere_musicale": "Pop rock",
+      "anno_nascita": 1959,
+      "prima_partecipazione": 2026,
+      "debuttante_2026": true,
+      "image_url": "https://fantasanremo.com/uploads/artists/6930a9dd94f1628b0c597eda-1764859848584",
+      "predizione_2026": {
+        "id": 27,
+        "artista_id": 27,
+        "punteggio_predetto": 238.67,
+        "confidence": 0.31,
+        "livello_performer": "HIGH"
+      },
+      "edizioni_fantasanremo": []
+    },
+    {
+      "id": 28,
+      "nome": "Sal Da Vinci",
+      "quotazione_2026": 13,
+      "genere_musicale": "Pop",
+      "anno_nascita": 1969,
+      "prima_partecipazione": 2026,
+      "debuttante_2026": true,
+      "image_url": "https://fantasanremo.com/uploads/artists/6930a9dd94f1628b0c597edb-1764859856513",
+      "predizione_2026": {
+        "id": 28,
+        "artista_id": 28,
+        "punteggio_predetto": 230.37,
+        "confidence": 0.45,
+        "livello_performer": "HIGH"
+      },
+      "edizioni_fantasanremo": []
+    },
+    {
+      "id": 19,
+      "nome": "Samurai Jay",
+      "quotazione_2026": 14,
+      "genere_musicale": "Hip-hop",
+      "anno_nascita": 1998,
+      "prima_partecipazione": 2026,
+      "debuttante_2026": true,
+      "image_url": "https://fantasanremo.com/uploads/artists/6930a9dd94f1628b0c597edc-1764859865138",
+      "predizione_2026": {
+        "id": 19,
+        "artista_id": 19,
+        "punteggio_predetto": 214.41,
+        "confidence": 0.12,
+        "livello_performer": "MEDIUM"
+      },
+      "edizioni_fantasanremo": []
+    },
+    {
+      "id": 29,
+      "nome": "Sayf",
+      "quotazione_2026": 13,
+      "genere_musicale": "Hip-hop",
+      "anno_nascita": 1999,
+      "prima_partecipazione": 2026,
+      "debuttante_2026": true,
+      "image_url": "https://fantasanremo.com/uploads/artists/6930a9dd94f1628b0c597edd-1764859872529",
+      "predizione_2026": {
+        "id": 29,
+        "artista_id": 29,
+        "punteggio_predetto": 215.11,
+        "confidence": 0.45,
+        "livello_performer": "MEDIUM"
+      },
+      "edizioni_fantasanremo": []
+    },
+    {
+      "id": 11,
+      "nome": "Serena Brancale",
+      "quotazione_2026": 15,
+      "genere_musicale": "Jazz/Funk/Rhythm and blues/Neo soul/Pop",
+      "anno_nascita": 1989,
+      "prima_partecipazione": 2025,
+      "debuttante_2026": false,
+      "image_url": "https://fantasanremo.com/uploads/artists/6930a9dd94f1628b0c597ede-1765884939406",
+      "predizione_2026": {
+        "id": 11,
+        "artista_id": 11,
+        "punteggio_predetto": 275.66,
+        "confidence": 0.5,
+        "livello_performer": "MEDIUM"
+      },
+      "edizioni_fantasanremo": [
+        {
+          "id": 12,
+          "artista_id": 11,
+          "anno": 2025,
+          "punteggio_finale": 228,
+          "posizione": 14,
+          "quotazione_baudi": 13
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nome": "Tommaso Paradiso",
+      "quotazione_2026": 17,
+      "genere_musicale": "Pop",
+      "anno_nascita": 1983,
+      "prima_partecipazione": 2026,
+      "debuttante_2026": true,
+      "image_url": "https://fantasanremo.com/uploads/artists/6930a9dd94f1628b0c597ee0-1764859884849",
+      "predizione_2026": {
+        "id": 1,
+        "artista_id": 1,
+        "punteggio_predetto": 261.42,
+        "confidence": 0.43,
+        "livello_performer": "HIGH"
+      },
+      "edizioni_fantasanremo": []
+    },
+    {
+      "id": 30,
+      "nome": "Tredici Pietro",
+      "quotazione_2026": 13,
+      "genere_musicale": "Hip-hop",
+      "anno_nascita": 1997,
+      "prima_partecipazione": 2026,
+      "debuttante_2026": true,
+      "image_url": "https://fantasanremo.com/uploads/artists/6930a9dd94f1628b0c597edf-1764859891227",
+      "predizione_2026": {
+        "id": 30,
+        "artista_id": 30,
+        "punteggio_predetto": 247.07,
+        "confidence": 0.17,
+        "livello_performer": "MEDIUM"
+      },
+      "edizioni_fantasanremo": []
+    }
+  ]
+}
