@@ -1,0 +1,101 @@
+{
+  "storico_fantasanremo_completo": [
+    {
+      "artista": "Fedez & Marco Masini",
+      "edizioni": [
+        {"anno": 2021, "posizione": 8, "punteggio_finale": 245, "quotazione_baudi": 38},
+        {"anno": 2025, "posizione": 21, "punteggio_finale": 195, "quotazione_baudi": null}
+      ]
+    },
+    {
+      "artista": "Arisa",
+      "edizioni": [
+        {"anno": 2021, "posizione": 9, "punteggio_finale": 235, "quotazione_baudi": 26}
+      ]
+    },
+    {
+      "artista": "Dargen D'Amico",
+      "edizioni": [
+        {"anno": 2022, "posizione": 2, "punteggio_finale": 395, "quotazione_baudi": 16},
+        {"anno": 2024, "posizione": 2, "punteggio_finale": 460, "quotazione_baudi": 22}
+      ]
+    },
+    {
+      "artista": "Ermal Meta",
+      "edizioni": [
+        {"anno": 2021, "posizione": 5, "punteggio_finale": 275, "quotazione_baudi": 22}
+      ]
+    },
+    {
+      "artista": "LDA & Aka 7even",
+      "edizioni": [
+        {"anno": 2022, "posizione": 11, "punteggio_finale": 315, "quotazione_baudi": 23, "nota": "Aka 7even"},
+        {"anno": 2023, "posizione": 12, "punteggio_finale": 318, "quotazione_baudi": 16, "nota": "LDA"}
+      ]
+    },
+    {
+      "artista": "Levante",
+      "edizioni": [
+        {"anno": 2023, "posizione": 18, "punteggio_finale": 265, "quotazione_baudi": null}
+      ]
+    },
+    {
+      "artista": "Malika Ayane",
+      "edizioni": [
+        {"anno": 2021, "posizione": 15, "punteggio_finale": 195, "quotazione_baudi": 23}
+      ]
+    },
+    {
+      "artista": "Michele Bravi",
+      "edizioni": [
+        {"anno": 2022, "posizione": 10, "punteggio_finale": 320, "quotazione_baudi": 23}
+      ]
+    },
+    {
+      "artista": "Serena Brancale",
+      "edizioni": [
+        {"anno": 2025, "posizione": 14, "punteggio_finale": 228, "quotazione_baudi": null}
+      ]
+    },
+    {
+      "artista": "Fulminacci",
+      "edizioni": [
+        {"anno": 2021, "posizione": 21, "punteggio_finale": 155, "quotazione_baudi": 16}
+      ]
+    },
+    {
+      "artista": "Leo Gassmann",
+      "edizioni": [
+        {"anno": 2023, "posizione": 27, "punteggio_finale": 128, "quotazione_baudi": 18}
+      ]
+    },
+    {
+      "artista": "Mara Sattei",
+      "edizioni": [
+        {"anno": 2023, "posizione": 24, "punteggio_finale": 178, "quotazione_baudi": null}
+      ]
+    },
+    {
+      "artista": "Ditonellapiaga",
+      "edizioni": [
+        {"anno": 2022, "posizione": 13, "punteggio_finale": 285, "quotazione_baudi": 16}
+      ]
+    },
+    {
+      "artista": "Francesco Renga",
+      "edizioni": [
+        {"anno": 2021, "posizione": 20, "punteggio_finale": 185, "quotazione_baudi": 24},
+        {"anno": 2024, "posizione": 12, "punteggio_finale": 334, "quotazione_baudi": 20, "nota": "con Nek"}
+      ]
+    }
+  ],
+  "vincitori_edizioni": [
+    {"anno": 2020, "vincitore": "Piero Pelù", "punteggio": 220, "squadre": 47},
+    {"anno": 2021, "vincitore": "Måneskin", "punteggio": 315, "squadre": 46962},
+    {"anno": 2022, "vincitore": "Emma", "punteggio": 525, "squadre": 500012},
+    {"anno": 2023, "vincitore": "Marco Mengoni", "punteggio": 670, "squadre": 4212694},
+    {"anno": 2024, "vincitore": "La Sad", "punteggio": 486, "squadre": 4201022},
+    {"anno": 2025, "vincitore": "Olly", "punteggio": 475, "squadre": 5096123}
+  ],
+  "note": "Punteggi 2021 stimati basati sulla posizione (solo top 3 confermati ufficialmente). Quotazioni baudi trovate per 2021 e 2024; altre anni parziali."
+}

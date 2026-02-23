@@ -1,0 +1,31 @@
+id,nome,quotazione_2026,genere_musicale,anno_nascita,prima_partecipazione,debuttante_2026,punteggio_predetto,confidence,livello_performer
+1,Tommaso Paradiso,17,,1983.0,,1,268.83,0.71,MEDIUM
+2,Fedez & Marco Masini,17,Hip-hop,1987.0,2021.0,0,318.74,0.85,MEDIUM
+3,Arisa,16,Pop,1982.0,2021.0,0,308.37,0.23,HIGH
+4,Dargen D'Amico,16,Hip-hop,1980.0,2022.0,0,427.82,0.32,HIGH
+5,Ermal Meta,16,Pop,1981.0,2021.0,0,292.95,0.42,HIGH
+6,LDA & Aka 7even,15,Pop,2000.0,2022.0,0,315.07,0.43,MEDIUM
+7,Levante,15,Pop,1987.0,2023.0,0,305.87,0.15,MEDIUM
+8,Luche,15,,1981.0,,1,269.01,0.77,MEDIUM
+9,Malika Ayane,15,Pop/Rock,1984.0,2021.0,0,303.08,0.07,MEDIUM
+10,Michele Bravi,15,Pop,1994.0,2022.0,0,317.81,0.85,HIGH
+11,Serena Brancale,15,Pop,1989.0,2025.0,0,279.74,0.73,MEDIUM
+12,Bambole di Pezza,14,Rock,,,1,189.44,0.46,MEDIUM
+13,Eddie Brock,14,,1997.0,,1,187.2,0.3,MEDIUM
+14,Elettra Lamborghini,14,,1994.0,,1,288.65,0.69,MEDIUM
+15,Fulminacci,14,,1997.0,2021.0,0,300.79,0.0,MEDIUM
+16,Leo Gassmann,14,,1998.0,2023.0,0,273.88,0.92,LOW
+17,Mara Sattei,14,,1995.0,2023.0,0,282.92,0.86,LOW
+18,Nayt,14,Hip-hop,1994.0,,1,259.18,0.57,MEDIUM
+19,Samurai Jay,14,,1998.0,,1,187.2,0.3,MEDIUM
+20,Chiello,13,,1999.0,,1,246.38,0.99,MEDIUM
+21,Ditonellapiaga,13,Indie Pop,1997.0,2022.0,0,286.37,0.83,MEDIUM
+22,Enrico Nigiotti,13,,1987.0,,1,264.8,0.84,MEDIUM
+23,Francesco Renga,13,Pop/Rock,1968.0,2021.0,0,321.0,0.61,MEDIUM
+24,J-Ax,13,Hip-hop,1972.0,,1,296.11,0.96,MEDIUM
+25,Maria Antonietta & Colombre,13,,1982.0,,1,268.07,0.74,MEDIUM
+26,Patty Pravo,13,Pop,1948.0,,1,193.6,0.32,MEDIUM
+27,Raf,13,Pop,1959.0,,1,268.07,0.74,MEDIUM
+28,Sal Da Vinci,13,Pop,1969.0,,1,271.78,0.63,MEDIUM
+29,Sayf,13,Hip-hop,1999.0,,1,263.18,0.66,MEDIUM
+30,Tredici Pietro,13,,1997.0,,1,187.2,0.3,MEDIUM

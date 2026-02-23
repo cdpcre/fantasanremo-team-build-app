@@ -1,0 +1,22 @@
+feature_name,description,category
+voto_stampa,Press vote score (0-100),Historical
+participations,Number of Sanremo participations,Historical
+avg_position,Average finishing position,Historical
+position_variance,Variance in finishing positions (consistency),Historical
+top10_finishes,Number of top 10 finishes,Historical
+top5_finishes,Number of top 5 finishes,Historical
+years_since_last,Years since last participation,Historical
+artist_age,Artist age in 2026,Biographical
+career_length,Years since first participation,Biographical
+is_debuttante_y,"Is debutante in 2026 (1=yes, 0=no)",Biographical
+gen_z,Born 1997-2012 (Gen Z cohort),Biographical
+millennial,Born 1981-1996 (Millennial cohort),Biographical
+gen_x,Born 1965-1980 (Gen X cohort),Biographical
+viral_potential,Viral potential score (1-100),Characteristics
+social_followers_total,Total social media followers,Characteristics
+has_bonus_history,"Has received bonus points (1=yes, 0=no)",Characteristics
+bonus_count,Count of bonus points received,Characteristics
+genre_mainstream_pop,"Mainstream pop genre (1=yes, 0=no)",Genre
+genre_rap_urban,"Rap/urban genre (1=yes, 0=no)",Genre
+POP_MAINSTREAM,"Pop Mainstream archetype (1=yes, 0=no)",Archetype
+DEBUTTANTE_POTENTIAL,"Debuttante Potential archetype (1=yes, 0=no)",Archetype

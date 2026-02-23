@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Fantasanremo Historical Data Schema",
+  "description": "Schema per i dati storici di FantaSanremo (2020-2025)",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["artista", "posizioni"],
+    "properties": {
+      "artista": {
+        "type": "string",
+        "description": "Nome dell'artista",
+        "minLength": 1
+      },
+      "posizioni": {
+        "type": "object",
+        "description": "Posizioni per ogni edizione (chiave=anno, valore=posizione)",
+        "patternProperties": {
+          "^[0-9]{4}$": {
+            "oneOf": [
+              {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 30,
+                "description": "Posizione in classifica"
+              },
+              {
+                "type": "string",
+                "const": "NP",
+                "description": "Non partecipante"
+              }
+            ]
+          }
+        }
+      },
+      "quotazioni": {
+        "type": "object",
+        "description": "Quotazioni per ogni edizione (chiave=anno, valore=quotazione)",
+        "patternProperties": {
+          "^[0-9]{4}$": {
+            "type": "integer",
+            "minimum": 13,
+            "maximum": 17,
+            "description": "Quotazione in baudi"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,226 @@
+{
+  "summary": {
+    "label": "candidate-v5",
+    "regression": {
+      "best_model": "gradient_boosting",
+      "best_mae_cv": 0.5732271076377509,
+      "best_r2": 0.28106258538137063,
+      "best_rmse": 84.71672298480492,
+      "best_mape": 35.88384808272212,
+      "ensemble_rmse": 84.78995477897149,
+      "ensemble_r2": 0.2798191040315876,
+      "ensemble_mape": 35.557085037265686,
+      "ensemble_range_macro_f1": 0.3572390572390572
+    },
+    "classification": {
+      "model": "gb_classifier",
+      "macro_f1": 0.5875168146354587,
+      "balanced_accuracy": 0.5930799220272904,
+      "accuracy": 0.5925925925925926,
+      "features": 27,
+      "diagnostics": {
+        "grouped_cv": true,
+        "hyperparam_tuning_enabled": true,
+        "lgbm_classifier_available": true,
+        "catboost_classifier_available": true,
+        "sample_weighting_enabled": true,
+        "probability_calibration": "logistic_oof",
+        "threshold_tuning": "class_probability_multipliers"
+      }
+    },
+    "selected_features_count": 21,
+    "category_threshold_strategy": "fixed_default",
+    "target_source_distribution": {
+      "estimated_from_classifiche": 96,
+      "real": 12
+    },
+    "quality_checks": {
+      "status": "pass",
+      "failed_checks": [],
+      "warnings": [
+        "estimated_target_ratio:0.889>0.700"
+      ],
+      "summary": {
+        "rows": 108,
+        "artists": 97,
+        "years": [
+          2020,
+          2021,
+          2022,
+          2024
+        ],
+        "duplicate_artist_year_rows": 0,
+        "target_missing_ratio": 0.0,
+        "feature_missing_ratio_mean": 0.0,
+        "feature_missing_ratio_max": 0.0,
+        "drift_features_checked": [
+          "bonus_count",
+          "consistency_score",
+          "longevity_bonus",
+          "participations",
+          "is_debuttante_x",
+          "best_position",
+          "peak_performance",
+          "avg_position",
+          "recent_avg",
+          "median_position"
+        ],
+        "max_drift_feature": "best_position",
+        "max_drift_score": 0.8273454335338406,
+        "target_source_distribution": {
+          "estimated_from_classifiche": 96,
+          "real": 12
+        },
+        "estimated_target_ratio": 0.8888888888888888
+      }
+    },
+    "best_params": {
+      "rf": {
+        "max_depth": 6,
+        "max_features": 0.7,
+        "min_samples_leaf": 2,
+        "n_estimators": 100
+      },
+      "gb": {
+        "alpha": 0.9,
+        "learning_rate": 0.1,
+        "loss": "huber",
+        "max_depth": 2,
+        "n_estimators": 100,
+        "subsample": 1.0
+      },
+      "ridge": {
+        "alpha": 5.0
+      },
+      "xgb": {
+        "colsample_bytree": 0.5,
+        "gamma": 0.1,
+        "learning_rate": 0.1,
+        "max_depth": 3,
+        "min_child_weight": 2,
+        "n_estimators": 500,
+        "objective": "reg:absoluteerror",
+        "reg_alpha": 0.0,
+        "reg_lambda": 10.0,
+        "subsample": 0.6
+      },
+      "lgbm": {
+        "learning_rate": 0.1,
+        "max_depth": 4,
+        "n_estimators": 80,
+        "objective": "fair",
+        "reg_lambda": 1.0
+      },
+      "catboost": {
+        "iterations": 400,
+        "depth": 5,
+        "learning_rate": 0.05,
+        "l2_leaf_reg": 6.0,
+        "loss_function": "MAE"
+      }
+    }
+  },
+  "baseline": {
+    "label": "baseline-v1",
+    "regression": {
+      "best_model": "xgboost",
+      "best_mae_cv": 0.5692817568573421,
+      "best_r2": 0.27856807380387805,
+      "best_rmse": 84.86356737492903,
+      "best_mape": 34.91567569116434,
+      "ensemble_rmse": 85.39957219904312,
+      "ensemble_r2": 0.2694260546842847,
+      "ensemble_mape": 35.772966138598264,
+      "ensemble_range_macro_f1": 0.32230474262661973
+    },
+    "classification": {
+      "model": "rf_classifier",
+      "macro_f1": 0.4621858942871808,
+      "balanced_accuracy": 0.473966823966824,
+      "accuracy": 0.4722222222222222
+    },
+    "selected_features_count": 21,
+    "quality_checks": {
+      "status": "pass",
+      "failed_checks": [],
+      "warnings": [],
+      "summary": {
+        "rows": 108,
+        "artists": 97,
+        "years": [
+          2020,
+          2021,
+          2022,
+          2024
+        ],
+        "duplicate_artist_year_rows": 0,
+        "target_missing_ratio": 0.0,
+        "feature_missing_ratio_mean": 0.0,
+        "feature_missing_ratio_max": 0.0,
+        "drift_features_checked": [
+          "bonus_count",
+          "consistency_score",
+          "longevity_bonus",
+          "participations",
+          "is_debuttante_x",
+          "best_position",
+          "peak_performance",
+          "avg_position",
+          "recent_avg",
+          "median_position"
+        ],
+        "max_drift_feature": "best_position",
+        "max_drift_score": 0.8273454335338406
+      }
+    },
+    "best_params": {
+      "rf": {
+        "max_depth": 6,
+        "max_features": 0.7,
+        "min_samples_leaf": 2,
+        "n_estimators": 100
+      },
+      "gb": {
+        "learning_rate": 0.1,
+        "max_depth": 2,
+        "n_estimators": 80,
+        "subsample": 1.0
+      },
+      "ridge": {
+        "alpha": 5.0
+      },
+      "xgb": {
+        "learning_rate": 0.1,
+        "max_depth": 3,
+        "n_estimators": 120,
+        "reg_lambda": 5.0
+      },
+      "lgbm": {
+        "learning_rate": 0.1,
+        "max_depth": 4,
+        "n_estimators": 120,
+        "reg_lambda": 1.0
+      }
+    }
+  },
+  "comparison": {
+    "approved": false,
+    "rules": {
+      "regression_pass": false,
+      "classification_pass": true,
+      "stability_pass": true
+    },
+    "deltas": {
+      "mae_relative_improvement": -0.006930400865449627,
+      "rmse_relative_improvement": 0.007138413043226694,
+      "macro_f1_delta": 0.12533092034827786,
+      "balanced_accuracy_delta": 0.11911309806046644
+    },
+    "thresholds": {
+      "mae_improvement_required": 0.03,
+      "rmse_improvement_required": 0.05,
+      "macro_f1_delta_required": 0.04,
+      "max_balanced_acc_drop": 0.02
+    }
+  }
+}

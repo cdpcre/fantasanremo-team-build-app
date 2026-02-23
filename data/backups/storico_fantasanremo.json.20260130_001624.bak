@@ -1,0 +1,350 @@
+{
+  "albo_oro": [
+    {
+      "edizione": 0,
+      "anno": 2020,
+      "squadre": 47,
+      "vincitore": "Piero Pelù",
+      "punteggio": 220
+    },
+    {
+      "edizione": 1,
+      "anno": 2021,
+      "squadre": 46962,
+      "vincitore": "Måneskin",
+      "punteggio": 315
+    },
+    {
+      "edizione": 2,
+      "anno": 2022,
+      "squadre": 500012,
+      "vincitore": "Emma",
+      "punteggio": 525
+    },
+    {
+      "edizione": 3,
+      "anno": 2023,
+      "squadre": 4212694,
+      "vincitore": "Marco Mengoni",
+      "punteggio": 670
+    },
+    {
+      "edizione": 4,
+      "anno": 2024,
+      "squadre": 4201022,
+      "vincitore": "La Sad",
+      "punteggio": 486
+    },
+    {
+      "edizione": 5,
+      "anno": 2025,
+      "squadre": 5096123,
+      "vincitore": "Olly",
+      "punteggio": 475
+    }
+  ],
+  "statistiche_artisti_2026": [
+    {
+      "nome": "Tommaso Paradiso",
+      "partecipazioni": 0,
+      "2021": null,
+      "2022": null,
+      "2023": null,
+      "2024": null,
+      "2025": null,
+      "debuttante": true
+    },
+    {
+      "nome": "Fedez & Marco Masini",
+      "partecipazioni": 2,
+      "2021": 8,
+      "2022": null,
+      "2023": null,
+      "2024": null,
+      "2025": 21,
+      "debuttante": false,
+      "note": "Fedez: 2021 pos.8, 2025 pos.21"
+    },
+    {
+      "nome": "Arisa",
+      "partecipazioni": 1,
+      "2021": 9,
+      "2022": null,
+      "2023": null,
+      "2024": null,
+      "2025": null,
+      "debuttante": false
+    },
+    {
+      "nome": "Dargen D'Amico",
+      "partecipazioni": 2,
+      "2021": null,
+      "2022": 2,
+      "2023": null,
+      "2024": 2,
+      "2025": null,
+      "debuttante": false
+    },
+    {
+      "nome": "Ermal Meta",
+      "partecipazioni": 1,
+      "2021": 5,
+      "2022": null,
+      "2023": null,
+      "2024": null,
+      "2025": null,
+      "debuttante": false
+    },
+    {
+      "nome": "LDA & Aka 7even",
+      "partecipazioni": 2,
+      "2021": null,
+      "2022": 11,
+      "2023": 12,
+      "2024": null,
+      "2025": null,
+      "debuttante": false,
+      "note": "Aka7even 2022 pos.11, LDA 2023 pos.12"
+    },
+    {
+      "nome": "Levante",
+      "partecipazioni": 1,
+      "2021": null,
+      "2022": null,
+      "2023": 18,
+      "2024": null,
+      "2025": null,
+      "debuttante": false
+    },
+    {
+      "nome": "Luche",
+      "partecipazioni": 0,
+      "2021": null,
+      "2022": null,
+      "2023": null,
+      "2024": null,
+      "2025": null,
+      "debuttante": true
+    },
+    {
+      "nome": "Malika Ayane",
+      "partecipazioni": 1,
+      "2021": 15,
+      "2022": null,
+      "2023": null,
+      "2024": null,
+      "2025": null,
+      "debuttante": false
+    },
+    {
+      "nome": "Michele Bravi",
+      "partecipazioni": 1,
+      "2021": null,
+      "2022": 10,
+      "2023": null,
+      "2024": null,
+      "2025": null,
+      "debuttante": false
+    },
+    {
+      "nome": "Serena Brancale",
+      "partecipazioni": 1,
+      "2021": null,
+      "2022": null,
+      "2023": null,
+      "2024": null,
+      "2025": 14,
+      "debuttante": false
+    },
+    {
+      "nome": "Bambole di Pezza",
+      "partecipazioni": 0,
+      "2021": null,
+      "2022": null,
+      "2023": null,
+      "2024": null,
+      "2025": null,
+      "debuttante": true
+    },
+    {
+      "nome": "Eddie Brock",
+      "partecipazioni": 0,
+      "2021": null,
+      "2022": null,
+      "2023": null,
+      "2024": null,
+      "2025": null,
+      "debuttante": true
+    },
+    {
+      "nome": "Elettra Lamborghini",
+      "partecipazioni": 0,
+      "2021": null,
+      "2022": null,
+      "2023": null,
+      "2024": null,
+      "2025": null,
+      "debuttante": true
+    },
+    {
+      "nome": "Fulminacci",
+      "partecipazioni": 1,
+      "2021": 21,
+      "2022": null,
+      "2023": null,
+      "2024": null,
+      "2025": null,
+      "debuttante": false
+    },
+    {
+      "nome": "Leo Gassmann",
+      "partecipazioni": 1,
+      "2021": null,
+      "2022": null,
+      "2023": 27,
+      "2024": null,
+      "2025": null,
+      "debuttante": false
+    },
+    {
+      "nome": "Mara Sattei",
+      "partecipazioni": 1,
+      "2021": null,
+      "2022": null,
+      "2023": 24,
+      "2024": null,
+      "2025": null,
+      "debuttante": false
+    },
+    {
+      "nome": "Nayt",
+      "partecipazioni": 0,
+      "2021": null,
+      "2022": null,
+      "2023": null,
+      "2024": null,
+      "2025": null,
+      "debuttante": true
+    },
+    {
+      "nome": "Samurai Jay",
+      "partecipazioni": 0,
+      "2021": null,
+      "2022": null,
+      "2023": null,
+      "2024": null,
+      "2025": null,
+      "debuttante": true
+    },
+    {
+      "nome": "Chiello",
+      "partecipazioni": 0,
+      "2021": null,
+      "2022": null,
+      "2023": null,
+      "2024": null,
+      "2025": null,
+      "debuttante": true
+    },
+    {
+      "nome": "Ditonellapiaga",
+      "partecipazioni": 1,
+      "2021": null,
+      "2022": 13,
+      "2023": null,
+      "2024": null,
+      "2025": null,
+      "debuttante": false
+    },
+    {
+      "nome": "Enrico Nigiotti",
+      "partecipazioni": 0,
+      "2021": null,
+      "2022": null,
+      "2023": null,
+      "2024": null,
+      "2025": null,
+      "debuttante": true
+    },
+    {
+      "nome": "Francesco Renga",
+      "partecipazioni": 2,
+      "2021": 20,
+      "2022": null,
+      "2023": null,
+      "2024": 12,
+      "2025": null,
+      "debuttante": false
+    },
+    {
+      "nome": "J-Ax",
+      "partecipazioni": 0,
+      "2021": null,
+      "2022": null,
+      "2023": null,
+      "2024": null,
+      "2025": null,
+      "debuttante": true
+    },
+    {
+      "nome": "Maria Antonietta & Colombre",
+      "partecipazioni": 0,
+      "2021": null,
+      "2022": null,
+      "2023": null,
+      "2024": null,
+      "2025": null,
+      "debuttante": true
+    },
+    {
+      "nome": "Patty Pravo",
+      "partecipazioni": 0,
+      "2021": null,
+      "2022": null,
+      "2023": null,
+      "2024": null,
+      "2025": null,
+      "debuttante": true
+    },
+    {
+      "nome": "Raf",
+      "partecipazioni": 0,
+      "2021": null,
+      "2022": null,
+      "2023": null,
+      "2024": null,
+      "2025": null,
+      "debuttante": true
+    },
+    {
+      "nome": "Sal Da Vinci",
+      "partecipazioni": 0,
+      "2021": null,
+      "2022": null,
+      "2023": null,
+      "2024": null,
+      "2025": null,
+      "debuttante": true
+    },
+    {
+      "nome": "Sayf",
+      "partecipazioni": 0,
+      "2021": null,
+      "2022": null,
+      "2023": null,
+      "2024": null,
+      "2025": null,
+      "debuttante": true
+    },
+    {
+      "nome": "Tredici Pietro",
+      "partecipazioni": 0,
+      "2021": null,
+      "2022": null,
+      "2023": null,
+      "2024": null,
+      "2025": null,
+      "debuttante": true
+    }
+  ]
+}

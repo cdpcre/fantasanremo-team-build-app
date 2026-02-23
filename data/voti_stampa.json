@@ -1,0 +1,171 @@
+{
+  "giudice": "stampa",
+  "edizioni": {
+    "2026": {
+      "piattaforma": "Instagram",
+      "voti": [
+        {"artista": "Tommaso Paradiso", "voto": 6.5},
+        {"artista": "Fedez & Marco Masini", "voto": 7},
+        {"artista": "Arisa", "voto": 7.5},
+        {"artista": "Dargen D'Amico", "voto": 5.5},
+        {"artista": "Ermal Meta", "voto": 6},
+        {"artista": "LDA & Aka 7even", "voto": 5},
+        {"artista": "Levante", "voto": 6.5},
+        {"artista": "Luche", "voto": 7},
+        {"artista": "Malika Ayane", "voto": 7.5},
+        {"artista": "Michele Bravi", "voto": 7},
+        {"artista": "Serena Brancale", "voto": 6},
+        {"artista": "Bambole di Pezza", "voto": 6},
+        {"artista": "Eddie Brock", "voto": 6.5},
+        {"artista": "Elettra Lamborghini", "voto": 6},
+        {"artista": "Fulminacci", "voto": 6.5},
+        {"artista": "Leo Gassmann", "voto": 5.5},
+        {"artista": "Mara Sattei", "voto": 5.5},
+        {"artista": "Nayt", "voto": 6.5},
+        {"artista": "Samurai Jay", "voto": 5.5},
+        {"artista": "Chiello", "voto": 5},
+        {"artista": "Ditonellapiaga", "voto": 8},
+        {"artista": "Enrico Nigiotti", "voto": 6},
+        {"artista": "Francesco Renga", "voto": 5.5},
+        {"artista": "J-Ax", "voto": 6.5},
+        {"artista": "Maria Antonietta & Colombre", "voto": 7},
+        {"artista": "Patty Pravo", "voto": 5},
+        {"artista": "Raf", "voto": 6.5},
+        {"artista": "Sal Da Vinci", "voto": 6.5},
+        {"artista": "Sayf", "voto": 6.5},
+        {"artista": "Tredici Pietro", "voto": 7}
+      ]
+    },
+    "2025": {
+      "piattaforma": "Stampa",
+      "voti": [
+        {"artista": "Brunori Sas", "voto": 8.5},
+        {"artista": "Lucio Corsi", "voto": 8.2},
+        {"artista": "Joan Thiele", "voto": 8},
+        {"artista": "Willie Peyote", "voto": 7.8},
+        {"artista": "Simone Cristicchi", "voto": 7.7},
+        {"artista": "Ditonellapiaga", "voto": 7.6},
+        {"artista": "Giorgia", "voto": 7.5},
+        {"artista": "Elodie", "voto": 7.1},
+        {"artista": "Irama", "voto": 7},
+        {"artista": "Shablo con Guè, Joshua e Tormento", "voto": 6.8},
+        {"artista": "Coma_Cose", "voto": 6.7},
+        {"artista": "Achille Lauro", "voto": 6.6},
+        {"artista": "Fedez", "voto": 6.5},
+        {"artista": "Bresh", "voto": 6.4},
+        {"artista": "Rose Villain", "voto": 6.3},
+        {"artista": "Noemi", "voto": 6.1},
+        {"artista": "The Kolors", "voto": 5.8},
+        {"artista": "Modà", "voto": 5.5},
+        {"artista": "Francesco Gabbani", "voto": 5.3},
+        {"artista": "Gaia", "voto": 5},
+        {"artista": "Rkomi", "voto": 4.8},
+        {"artista": "Elettra Lamborghini", "voto": 4.2}
+      ]
+    },
+    "2024": {
+      "piattaforma": "Stampa",
+      "voti": [
+        {"artista": "Angelina Mango", "brano": "La noia", "voto": 8.5},
+        {"artista": "Loredana Bertè", "brano": "Pazza", "voto": 8.2},
+        {"artista": "Annalisa", "brano": "Sinceramente", "voto": 8},
+        {"artista": "Mahmood", "brano": "Tuta Gold", "voto": 7.8},
+        {"artista": "The Kolors", "brano": "Un ragazzo una ragazza", "voto": 7.5},
+        {"artista": "Diodato", "brano": "Ti muovi", "voto": 7.4},
+        {"artista": "BigMama", "brano": "La rabbia non ti basta", "voto": 7.2},
+        {"artista": "Negramaro", "brano": "Ricominciamo tutto", "voto": 7.1},
+        {"artista": "Ghali", "brano": "Casa mia", "voto": 7},
+        {"artista": "Emma", "brano": "Apnea", "voto": 6.9},
+        {"artista": "Geolier", "brano": "I p' me, tu p' te", "voto": 6.5},
+        {"artista": "Rose Villain", "brano": "Click Boom!", "voto": 6.5},
+        {"artista": "Gazzelle", "brano": "Tutto qui", "voto": 6.4},
+        {"artista": "Alessandra Amoroso", "brano": "Fino a qui", "voto": 6.3},
+        {"artista": "Ricchi e Poveri", "brano": "Ma non tutta la vita", "voto": 6.2},
+        {"artista": "Dargen D'Amico", "brano": "Onda alta", "voto": 6},
+        {"artista": "Santi Francesi", "brano": "L'amore in bocca", "voto": 6},
+        {"artista": "Mr. Rain", "brano": "Due altalene", "voto": 5.8},
+        {"artista": "Irama", "brano": "Tu no", "voto": 5.7},
+        {"artista": "Il Volo", "brano": "Capolavoro", "voto": 5.5},
+        {"artista": "Sangiovanni", "brano": "Finiscimi", "voto": 5.4},
+        {"artista": "Renga e Nek", "brano": "Pazzo di te", "voto": 5}
+      ]
+    },
+    "2023": {
+      "piattaforma": "Stampa",
+      "voti": [
+        {"artista": "Marco Mengoni", "brano": "Due vite", "voto": 8.6},
+        {"artista": "Colapesce Dimartino", "brano": "Splash", "voto": 8.2},
+        {"artista": "Madame", "brano": "Il bene nel male", "voto": 8},
+        {"artista": "Elodie", "brano": "Due", "voto": 7.8},
+        {"artista": "Giorgia", "brano": "Parole dette male", "voto": 7.5},
+        {"artista": "Coma_Cose", "brano": "L'addio", "voto": 7.4},
+        {"artista": "Tananai", "brano": "Tango", "voto": 7.2},
+        {"artista": "Lazza", "brano": "Cenere", "voto": 6.9},
+        {"artista": "Mara Sattei", "brano": "Duemilaminuti", "voto": 6.8},
+        {"artista": "Rosa Chemical", "brano": "Made in Italy", "voto": 6.5},
+        {"artista": "Ultimo", "brano": "Alba", "voto": 6.4},
+        {"artista": "Ariete", "brano": "Mare di guai", "voto": 6.2},
+        {"artista": "Levante", "brano": "Vivo", "voto": 6},
+        {"artista": "Articolo 31", "brano": "Un bel viaggio", "voto": 6},
+        {"artista": "Modà", "brano": "Lasciami", "voto": 5.8},
+        {"artista": "Paola & Chiara", "brano": "Furore", "voto": 5.5},
+        {"artista": "Anna Oxa", "brano": "Sali", "voto": 5}
+      ]
+    },
+    "2022": {
+      "piattaforma": "Stampa",
+      "voti": [
+        {"artista": "Mahmood e Blanco", "brano": "Brividi", "voto": 9},
+        {"artista": "Elisa", "brano": "O forse sei tu", "voto": 8.5},
+        {"artista": "La Rappresentante di Lista", "brano": "Ciao Ciao", "voto": 8.1},
+        {"artista": "Giovanni Truppi", "brano": "Tuo padre, mia madre, mia sorella, il mio cane, i nostri nonni, gli anni a venire", "voto": 7.8},
+        {"artista": "Dargen D'Amico", "brano": "Dove si balla", "voto": 7.5},
+        {"artista": "Ditonellapiaga", "brano": "Chimica", "voto": 7.4},
+        {"artista": "Massimo Ranieri", "brano": "Lettera di là del mare", "voto": 7.2},
+        {"artista": "Gianni Morandi", "brano": "Apri tutte le porte", "voto": 7},
+        {"artista": "Rkomi", "brano": "Insuperabile", "voto": 6.8},
+        {"artista": "Achille Lauro", "brano": "Domenica", "voto": 6.5},
+        {"artista": "Sangiovanni", "brano": "Farfalle", "voto": 6.2},
+        {"artista": "Irama", "brano": "Ovunque sarai", "voto": 6},
+        {"artista": "Tananai", "brano": "Sesso occasionale", "voto": 4.5},
+        {"artista": "Ana Mena", "brano": "Duecentomila ore", "voto": 4.2}
+      ]
+    },
+    "2021": {
+      "piattaforma": "Stampa",
+      "voti": [
+        {"artista": "Colapesce Dimartino", "brano": "Musica leggerissima", "voto": 8.4},
+        {"artista": "Willie Peyote", "brano": "Mai dire mai (La locura)", "voto": 8},
+        {"artista": "Madame", "brano": "Voce", "voto": 7.8},
+        {"artista": "Måneskin", "brano": "Zitti e buoni", "voto": 7.5},
+        {"artista": "Max Gazzè", "brano": "Il farmacista", "voto": 7.2},
+        {"artista": "La Rappresentante di Lista", "brano": "Amare", "voto": 7.2},
+        {"artista": "Francesca Michielin e Fedez", "brano": "Chiamami per nome", "voto": 7},
+        {"artista": "Fulminacci", "brano": "Santa Marinella", "voto": 6.9},
+        {"artista": "Annalisa", "brano": "Dieci", "voto": 6.8},
+        {"artista": "Irama", "brano": "La genesi del tuo colore", "voto": 6.6},
+        {"artista": "Arisa", "brano": "Potevi fare di più", "voto": 6.5},
+        {"artista": "Ermal Meta", "brano": "Un milione di cose da dirti", "voto": 6.2},
+        {"artista": "Orietta Berti", "brano": "Quando ti sei innamorato", "voto": 5.5},
+        {"artista": "Random", "brano": "Torno a te", "voto": 4.8}
+      ]
+    },
+    "2020": {
+      "piattaforma": "Stampa",
+      "voti": [
+        {"artista": "Diodato", "brano": "Fai rumore", "voto": 8.2},
+        {"artista": "Tosca", "brano": "Ho amato tutto", "voto": 8},
+        {"artista": "Elodie", "brano": "Andromeda", "voto": 7.8},
+        {"artista": "Rancore", "brano": "Eden", "voto": 7.6},
+        {"artista": "Pinguini Tattici Nucleari", "brano": "Ringo Starr", "voto": 7.5},
+        {"artista": "Anastasio", "brano": "Rosso di rabbia", "voto": 7.2},
+        {"artista": "Francesco Gabbani", "brano": "Viceversa", "voto": 7},
+        {"artista": "Achille Lauro", "brano": "Me ne frego", "voto": 6.8},
+        {"artista": "Le Vibrazioni", "brano": "Dov'è", "voto": 6.5},
+        {"artista": "Piero Pelù", "brano": "Gigante", "voto": 6.2},
+        {"artista": "Elettra Lamborghini", "brano": "Musica (e il resto sga)", "voto": 5},
+        {"artista": "Riki", "brano": "Lo sappiamo entrambi", "voto": 4.8}
+      ]
+    }
+  }
+}

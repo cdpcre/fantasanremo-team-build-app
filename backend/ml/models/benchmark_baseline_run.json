@@ -1,0 +1,85 @@
+{
+  "summary": {
+    "label": "baseline-v1",
+    "regression": {
+      "best_model": "xgboost",
+      "best_mae_cv": 0.5692817568573421,
+      "best_r2": 0.27856807380387805,
+      "best_rmse": 84.86356737492903,
+      "best_mape": 34.91567569116434,
+      "ensemble_rmse": 85.39957219904312,
+      "ensemble_r2": 0.2694260546842847,
+      "ensemble_mape": 35.772966138598264,
+      "ensemble_range_macro_f1": 0.32230474262661973
+    },
+    "classification": {
+      "model": "rf_classifier",
+      "macro_f1": 0.4621858942871808,
+      "balanced_accuracy": 0.473966823966824,
+      "accuracy": 0.4722222222222222
+    },
+    "selected_features_count": 21,
+    "quality_checks": {
+      "status": "pass",
+      "failed_checks": [],
+      "warnings": [],
+      "summary": {
+        "rows": 108,
+        "artists": 97,
+        "years": [
+          2020,
+          2021,
+          2022,
+          2024
+        ],
+        "duplicate_artist_year_rows": 0,
+        "target_missing_ratio": 0.0,
+        "feature_missing_ratio_mean": 0.0,
+        "feature_missing_ratio_max": 0.0,
+        "drift_features_checked": [
+          "bonus_count",
+          "consistency_score",
+          "longevity_bonus",
+          "participations",
+          "is_debuttante_x",
+          "best_position",
+          "peak_performance",
+          "avg_position",
+          "recent_avg",
+          "median_position"
+        ],
+        "max_drift_feature": "best_position",
+        "max_drift_score": 0.8273454335338406
+      }
+    },
+    "best_params": {
+      "rf": {
+        "max_depth": 6,
+        "max_features": 0.7,
+        "min_samples_leaf": 2,
+        "n_estimators": 100
+      },
+      "gb": {
+        "learning_rate": 0.1,
+        "max_depth": 2,
+        "n_estimators": 80,
+        "subsample": 1.0
+      },
+      "ridge": {
+        "alpha": 5.0
+      },
+      "xgb": {
+        "learning_rate": 0.1,
+        "max_depth": 3,
+        "n_estimators": 120,
+        "reg_lambda": 5.0
+      },
+      "lgbm": {
+        "learning_rate": 0.1,
+        "max_depth": 4,
+        "n_estimators": 120,
+        "reg_lambda": 1.0
+      }
+    }
+  }
+}
